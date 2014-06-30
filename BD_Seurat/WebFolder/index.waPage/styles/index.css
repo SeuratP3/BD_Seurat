@@ -3,36 +3,48 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#option2 {
-	 z-index: 0;
-	 width: 0px;
-	 height: 0px;
-	 top: auto;
-	 left: auto;
+#dataGrid2 {
+	 z-index: 3;
+	 top: 65px;
+	 bottom: 20px;
+	 left: 25px;
+	 right: 25px;
 	
 	 position: absolute;
 	 
 }
 
-#option1 {
-	 z-index: 0;
-	 width: 0px;
-	 height: 0px;
-	 top: auto;
-	 left: auto;
+#label1 {
+	 z-index: 2;
+	 top: 28px;
+	 bottom: 323px;
+	 left: 40px;
+	 right: 185px;
 	
 	 position: absolute;
 	 
 }
 
-#option {
-	 z-index: 0;
-	 width: 0px;
-	 height: 0px;
-	 top: auto;
-	 left: auto;
+#textField1 {
+	 z-index: 2;
+	 top: 20px;
+	 bottom: 315px;
+	 left: 105px;
+	 right: 50px;
 	
 	 position: absolute;
+	 
+}
+
+#container2 {
+	 z-index: 1;
+	 width: 287px;
+	 height: 368px;
+	 top: 12px;
+	 left: 12px;
+	
+	 position: absolute;
+	 background-color: rgb(91, 165, 239);
 	 
 }
 
@@ -47,33 +59,11 @@
 	 
 }
 
-#combobox1 {
-	 z-index: 9;
-	 width: 163px;
-	 height: 28px;
-	 top: 142px;
-	 left: 44px;
-	
-	 position: absolute;
-	 
-}
-
-#combobox1 {
-	 z-index: 9;
-	 width: 163px;
-	 height: 28px;
-	 top: 142px;
-	 left: 44px;
-	
-	 position: absolute;
-	 
-}
-
 #image3 {
-	 width: 85px;
-	 height: 80px;
-	 top: auto;
-	 left: auto;
+	 width: 512px;
+	 height: 134px;
+	 top: -16px;
+	 left: 140px;
 	
 	 position: absolute;
 	 
@@ -83,56 +73,30 @@
 	 z-index: 15;
 	 width: 205px;
 	 height: 67px;
-	 top: 11px;
-	 left: 16px;
+	 top: 17px;
+	 left: 567px;
 	
 	 position: absolute;
 	 
 }
 
-#image4 {
-	 z-index: 5;
-	 top: 100px;
-	 bottom: 0px;
-	 left: 0px;
-	 right: 707px;
-	
-	 position: absolute;
-	 
-}
-
-#textField1 {
-	 z-index: 7;
-	 width: 163px;
-	 height: 29px;
-	 top: 176px;
-	 left: 44px;
-	
-	 position: absolute;
-	 font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
-	 color: rgb(102, 102, 102);
-	 
-}
-
-#dataGrid1 {
-	 z-index: 16;
-	 width: 300px;
-	 height: 300px;
+#container1 {
+	 z-index: 17;
 	 top: 105px;
-	 left: 348px;
+	 bottom: 17px;
+	 left: 0px;
+	 right: 0px;
 	
 	 position: absolute;
-	 
-}
-
-#dataGrid3 {
-	 z-index: 14;
-	 width: 248px;
-	 top: 218px;
-	 bottom: 48px;
-	 left: 8px;
-	
-	 position: absolute;
+	 background-color: rgb(125, 178, 232);
+	 border-top-width: 0px;
+	 border-left-width: 0px;
+	 border-right-width: 0px;
+	 border-bottom-width: 0px;
+	 border-top-style: solid;
+	 border-left-style: solid;
+	 border-right-style: solid;
+	 border-bottom-style: solid;
 	 
 }
 
