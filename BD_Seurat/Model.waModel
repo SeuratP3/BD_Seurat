@@ -9,8 +9,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 45,
-						"Y": 26
+						"X": 10,
+						"Y": 5
 					}
 				}
 			},
@@ -20,8 +20,8 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 100,
-						"Y": 290
+						"X": 30,
+						"Y": 193
 					}
 				}
 			},
@@ -31,9 +31,42 @@
 					"isOpen": "true",
 					"pathVisible": true,
 					"position": {
-						"X": 440,
-						"Y": 27
+						"X": 335,
+						"Y": 5
 					}
+				}
+			},
+			"MontageAvant": {
+				"panelColor": "#D88CFF",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 10,
+						"Y": 351
+					},
+					"pathVisible": true
+				}
+			},
+			"MontageArriere": {
+				"panelColor": "#fff",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 224,
+						"Y": 313
+					},
+					"pathVisible": true
+				}
+			},
+			"Origine": {
+				"panelColor": "#D88CFF",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 462,
+						"Y": 280
+					},
+					"pathVisible": true
 				}
 			}
 		},
@@ -154,6 +187,85 @@
 					"path": "Vehicule"
 				}
 			]
+		},
+		{
+			"collectionName": "MontageAvantCollection",
+			"className": "MontageAvant",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "Origine",
+					"scope": "public",
+					"path": "Origine",
+					"type": "Origine",
+					"kind": "relatedEntity"
+				}
+			]
+		},
+		{
+			"collectionName": "MontageArriereCollection",
+			"className": "MontageArriere",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "Origine",
+					"scope": "public",
+					"path": "Origine",
+					"type": "Origine",
+					"kind": "relatedEntity"
+				}
+			]
+		},
+		{
+			"collectionName": "OrigineCollection",
+			"className": "Origine",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "Jante",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "montageAvantCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "Origine",
+					"type": "MontageAvantCollection",
+					"kind": "relatedEntities"
+				},
+				{
+					"name": "montageArriereCollection",
+					"scope": "public",
+					"reversePath": true,
+					"path": "Origine",
+					"type": "MontageArriereCollection",
+					"kind": "relatedEntities"
+				}
+			]
 		}
-	]
+	],
+	"type": []
 }

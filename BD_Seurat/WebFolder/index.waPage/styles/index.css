@@ -3,23 +3,58 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#component2 {
-	 z-index: 5;
-	 width: 200px;
-	 height: 200px;
-	 top: 200px;
-	 left: 200px;
+#image5 {
+	 z-index: 14;
+	 width: 205px;
+	 height: 67px;
+	 top: 11px;
+	 left: 16px;
 	
 	 position: absolute;
 	 
 }
 
-#dataGrid1 {
-	 z-index: 1;
-	 top: 157px;
-	 bottom: 10px;
-	 left: 379px;
-	 right: 0px;
+#dataGrid3 {
+	 z-index: 13;
+	 width: 256px;
+	 height: 377px;
+	 top: 218px;
+	 left: 8px;
+	
+	 position: absolute;
+	 
+}
+
+#textField1 {
+	 z-index: 7;
+	 width: 163px;
+	 height: 29px;
+	 top: 176px;
+	 left: 44px;
+	
+	 position: absolute;
+	 font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	 color: rgb(102, 102, 102);
+	 
+}
+
+#image4 {
+	 z-index: 5;
+	 width: 792px;
+	 height: 512px;
+	 top: 100px;
+	 left: 0px;
+	
+	 position: absolute;
+	 
+}
+
+#combobox1 {
+	 z-index: 9;
+	 width: 163px;
+	 height: 28px;
+	 top: 142px;
+	 left: 44px;
 	
 	 position: absolute;
 	 
