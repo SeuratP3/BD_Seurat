@@ -3,8 +3,84 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#option2 {
+	 z-index: 0;
+	 width: 0px;
+	 height: 0px;
+	 top: auto;
+	 left: auto;
+	
+	 position: absolute;
+	 
+}
+
+#option1 {
+	 z-index: 0;
+	 width: 0px;
+	 height: 0px;
+	 top: auto;
+	 left: auto;
+	
+	 position: absolute;
+	 
+}
+
+#option {
+	 z-index: 0;
+	 width: 0px;
+	 height: 0px;
+	 top: auto;
+	 left: auto;
+	
+	 position: absolute;
+	 
+}
+
+#image2 {
+	 z-index: 15;
+	 width: 731px;
+	 height: 195px;
+	 top: -314px;
+	 left: -45px;
+	
+	 position: absolute;
+	 
+}
+
+#combobox1 {
+	 z-index: 9;
+	 width: 163px;
+	 height: 28px;
+	 top: 142px;
+	 left: 44px;
+	
+	 position: absolute;
+	 
+}
+
+#combobox1 {
+	 z-index: 9;
+	 width: 163px;
+	 height: 28px;
+	 top: 142px;
+	 left: 44px;
+	
+	 position: absolute;
+	 
+}
+
+#image3 {
+	 width: 85px;
+	 height: 80px;
+	 top: auto;
+	 left: auto;
+	
+	 position: absolute;
+	 
+}
+
 #image5 {
-	 z-index: 14;
+	 z-index: 15;
 	 width: 205px;
 	 height: 67px;
 	 top: 11px;
@@ -14,12 +90,12 @@
 	 
 }
 
-#dataGrid3 {
-	 z-index: 13;
-	 width: 256px;
-	 height: 377px;
-	 top: 218px;
-	 left: 8px;
+#image4 {
+	 z-index: 5;
+	 top: 100px;
+	 bottom: 0px;
+	 left: 0px;
+	 right: 707px;
 	
 	 position: absolute;
 	 
@@ -38,23 +114,23 @@
 	 
 }
 
-#image4 {
-	 z-index: 5;
-	 width: 792px;
-	 height: 512px;
-	 top: 100px;
-	 left: 0px;
+#dataGrid1 {
+	 z-index: 16;
+	 width: 300px;
+	 height: 300px;
+	 top: 105px;
+	 left: 348px;
 	
 	 position: absolute;
 	 
 }
 
-#combobox1 {
-	 z-index: 9;
-	 width: 163px;
-	 height: 28px;
-	 top: 142px;
-	 left: 44px;
+#dataGrid3 {
+	 z-index: 14;
+	 width: 248px;
+	 top: 218px;
+	 bottom: 48px;
+	 left: 8px;
 	
 	 position: absolute;
 	 
