@@ -1,0 +1,159 @@
+﻿{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"Marque": {
+				"panelColor": "#CCC1D9",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 45,
+						"Y": 26
+					}
+				}
+			},
+			"Montage": {
+				"panelColor": "#8DB3E2",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 100,
+						"Y": 290
+					}
+				}
+			},
+			"Vehicule": {
+				"panelColor": "#B2A2C7",
+				"panel": {
+					"isOpen": "true",
+					"pathVisible": true,
+					"position": {
+						"X": 440,
+						"Y": 27
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"name": "Marque",
+			"className": "Marque",
+			"collectionName": "Marques",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Nom",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "vehiculeCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "VehiculeCollection",
+					"reversePath": true,
+					"path": "Marque"
+				}
+			]
+		},
+		{
+			"name": "Montage",
+			"className": "Montage",
+			"collectionName": "MontageCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Vehicule",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Vehicule",
+					"path": "Vehicule"
+				}
+			]
+		},
+		{
+			"name": "Vehicule",
+			"className": "Vehicule",
+			"collectionName": "VehiculeCollection",
+			"scope": "public",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"scope": "public",
+					"unique": true,
+					"autosequence": true,
+					"type": "long",
+					"primKey": true
+				},
+				{
+					"name": "Marque",
+					"kind": "relatedEntity",
+					"scope": "public",
+					"type": "Marque",
+					"path": "Marque"
+				},
+				{
+					"name": "Modele",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Cylindree",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "Annee",
+					"kind": "storage",
+					"scope": "public",
+					"type": "long"
+				},
+				{
+					"name": "Nom",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "montageCollection",
+					"kind": "relatedEntities",
+					"scope": "public",
+					"type": "MontageCollection",
+					"reversePath": true,
+					"path": "Vehicule"
+				}
+			]
+		}
+	]
+}
