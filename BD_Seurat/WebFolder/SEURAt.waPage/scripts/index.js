@@ -10,8 +10,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	button1.click = function button1_click (event)// @startlock
 	{// @endlock
-		var m = sources.montage.newEntity();
-		sources.fiche.avant = m;
+		//var m = sources.montage.newEntity();
+		//sources.fiche.avant = m;
 		
 	};// @lock
 
