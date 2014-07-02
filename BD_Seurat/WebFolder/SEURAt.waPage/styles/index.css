@@ -3,23 +3,2282 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#richText14 {
-	 width: 60px;
-	 height: 20px;
-	 top: 422px;
-	 left: 6px;
+#label174 {
+	 width: 22px;
+	 top: 534px;
+	 bottom: 30px;
+	 left: 7px;
 	
 	 position: absolute;
-	 font-size: 14px;
+	 min-width: 20px;
+	 z-index: 164;
+	 
+}
+
+#label173 {
+	 width: 8px;
+	 height: 13px;
+	 top: 503px;
+	 left: 456px;
+	
+	 position: absolute;
+	 z-index: 163;
+	 
+}
+
+#label172 {
+	 width: 8px;
+	 height: 13px;
+	 top: 473px;
+	 left: 456px;
+	
+	 position: absolute;
+	 z-index: 162;
+	 
+}
+
+#label171 {
+	 width: 8px;
+	 height: 13px;
+	 top: 503px;
+	 left: 372px;
+	
+	 position: absolute;
+	 z-index: 161;
+	 
+}
+
+#label170 {
+	 width: 8px;
+	 height: 13px;
+	 top: 473px;
+	 left: 372px;
+	
+	 position: absolute;
+	 z-index: 160;
+	 
+}
+
+#label169 {
+	 width: 8px;
+	 height: 13px;
+	 top: 445px;
+	 left: 456px;
+	
+	 position: absolute;
+	 z-index: 159;
+	 
+}
+
+#label168 {
+	 width: 8px;
+	 height: 13px;
+	 top: 445px;
+	 left: 372px;
+	
+	 position: absolute;
+	 z-index: 158;
+	 
+}
+
+#label167 {
+	 width: 8px;
+	 height: 13px;
+	 top: 415px;
+	 left: 456px;
+	
+	 position: absolute;
+	 z-index: 157;
+	 
+}
+
+#label166 {
+	 width: 8px;
+	 height: 13px;
+	 top: 415px;
+	 left: 372px;
+	
+	 position: absolute;
+	 z-index: 156;
+	 
+}
+
+#label165 {
+	 width: 7px;
+	 height: 13px;
+	 top: 503px;
+	 left: 294px;
+	
+	 position: absolute;
+	 z-index: 154;
+	 
+}
+
+#label164 {
+	 width: 7px;
+	 height: 13px;
+	 top: 473px;
+	 left: 294px;
+	
+	 position: absolute;
+	 z-index: 153;
+	 
+}
+
+#label163 {
+	 width: 7px;
+	 height: 13px;
+	 top: 445px;
+	 left: 294px;
+	
+	 position: absolute;
+	 z-index: 152;
+	 
+}
+
+#label162 {
+	 width: 7px;
+	 height: 13px;
+	 top: 415px;
+	 left: 294px;
+	
+	 position: absolute;
+	 z-index: 151;
+	 
+}
+
+#label161 {
+	 width: 25px;
+	 height: 13px;
+	 top: 473px;
+	 left: 95px;
+	
+	 position: absolute;
+	 z-index: 150;
+	 
+}
+
+#label160 {
+	 width: 17px;
+	 height: 13px;
+	 top: 503px;
+	 left: 217px;
+	
+	 position: absolute;
+	 z-index: 149;
+	 
+}
+
+#label159 {
+	 width: 16px;
+	 height: 13px;
+	 top: 473px;
+	 left: 218px;
+	
+	 position: absolute;
+	 z-index: 148;
+	 
+}
+
+#label158 {
+	 width: 25px;
+	 height: 13px;
+	 top: 415px;
+	 left: 95px;
+	
+	 position: absolute;
+	 z-index: 147;
+	 
+}
+
+#label157 {
+	 width: 17px;
+	 height: 13px;
+	 top: 445px;
+	 left: 217px;
+	
+	 position: absolute;
+	 z-index: 146;
+	 
+}
+
+#label156 {
+	 width: 16px;
+	 height: 13px;
+	 top: 415px;
+	 left: 218px;
+	
+	 position: absolute;
+	 z-index: 145;
+	 
+}
+
+#label155 {
+	 width: 30px;
+	 height: 13px;
+	 top: 352px;
+	 left: 362px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 144;
+	 
+}
+
+#label154 {
+	 width: 7px;
+	 height: 13px;
+	 top: 352px;
+	 left: 613px;
+	
+	 position: absolute;
+	 z-index: 142;
+	 
+}
+
+#label153 {
+	 width: 6px;
+	 height: 13px;
+	 top: 382px;
+	 left: 546px;
+	
+	 position: absolute;
+	 z-index: 141;
+	 
+}
+
+#label152 {
+	 width: 31px;
+	 height: 13px;
+	 top: 382px;
+	 left: 451px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 140;
+	 
+}
+
+#label151 {
+	 width: 30px;
+	 height: 13px;
+	 top: 382px;
+	 left: 362px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 139;
+	 
+}
+
+#label150 {
+	 width: 6px;
+	 height: 13px;
+	 top: 382px;
+	 left: 295px;
+	
+	 position: absolute;
+	 z-index: 138;
+	 
+}
+
+#label149 {
+	 width: 25px;
+	 height: 13px;
+	 top: 352px;
+	 left: 95px;
+	
+	 position: absolute;
+	 z-index: 136;
+	 
+}
+
+#label148 {
+	 width: 17px;
+	 height: 13px;
+	 top: 382px;
+	 left: 217px;
+	
+	 position: absolute;
+	 z-index: 135;
+	 
+}
+
+#label147 {
+	 width: 6px;
+	 height: 13px;
+	 top: 352px;
+	 left: 295px;
+	
+	 position: absolute;
+	 z-index: 134;
+	 
+}
+
+#label146 {
+	 width: 31px;
+	 height: 13px;
+	 top: 352px;
+	 left: 451px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 133;
+	 
+}
+
+#label145 {
+	 width: 6px;
+	 height: 13px;
+	 top: 352px;
+	 left: 546px;
+	
+	 position: absolute;
+	 z-index: 132;
+	 
+}
+
+#label144 {
+	 width: 16px;
+	 height: 13px;
+	 top: 352px;
+	 left: 218px;
+	
+	 position: absolute;
+	 z-index: 131;
+	 
+}
+
+#label143 {
+	 width: 30px;
+	 height: 13px;
+	 top: 294px;
+	 left: 362px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 130;
+	 
+}
+
+#label142 {
+	 width: 7px;
+	 height: 13px;
+	 top: 294px;
+	 left: 613px;
+	
+	 position: absolute;
+	 z-index: 128;
+	 
+}
+
+#label141 {
+	 width: 6px;
+	 height: 13px;
+	 top: 324px;
+	 left: 546px;
+	
+	 position: absolute;
+	 z-index: 127;
+	 
+}
+
+#label140 {
+	 width: 31px;
+	 height: 13px;
+	 top: 324px;
+	 left: 451px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 126;
+	 
+}
+
+#label139 {
+	 width: 30px;
+	 height: 13px;
+	 top: 324px;
+	 left: 362px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 125;
+	 
+}
+
+#label138 {
+	 width: 6px;
+	 height: 13px;
+	 top: 324px;
+	 left: 295px;
+	
+	 position: absolute;
+	 z-index: 124;
+	 
+}
+
+#label137 {
+	 width: 25px;
+	 height: 13px;
+	 top: 294px;
+	 left: 95px;
+	
+	 position: absolute;
+	 z-index: 122;
+	 
+}
+
+#label136 {
+	 width: 17px;
+	 height: 13px;
+	 top: 324px;
+	 left: 217px;
+	
+	 position: absolute;
+	 z-index: 121;
+	 
+}
+
+#label135 {
+	 width: 6px;
+	 height: 13px;
+	 top: 294px;
+	 left: 295px;
+	
+	 position: absolute;
+	 z-index: 120;
+	 
+}
+
+#label134 {
+	 width: 31px;
+	 height: 13px;
+	 top: 294px;
+	 left: 451px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 119;
+	 
+}
+
+#label133 {
+	 width: 6px;
+	 height: 13px;
+	 top: 294px;
+	 left: 546px;
+	
+	 position: absolute;
+	 z-index: 118;
+	 
+}
+
+#label132 {
+	 width: 16px;
+	 height: 13px;
+	 top: 294px;
+	 left: 218px;
+	
+	 position: absolute;
+	 z-index: 117;
+	 
+}
+
+#label131 {
+	 width: 30px;
+	 height: 13px;
+	 top: 9px;
+	 left: 61px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 116;
+	 
+}
+
+#label130 {
+	 width: 7px;
+	 height: 13px;
+	 top: 134px;
+	 left: 613px;
+	
+	 position: absolute;
+	 z-index: 115;
+	 
+}
+
+#label129 {
+	 width: 6px;
+	 height: 13px;
+	 top: 164px;
+	 left: 546px;
+	
+	 position: absolute;
+	 z-index: 114;
+	 
+}
+
+#label128 {
+	 width: 6px;
+	 height: 13px;
+	 top: 134px;
+	 left: 546px;
+	
+	 position: absolute;
+	 z-index: 113;
+	 
+}
+
+#label127 {
+	 width: 31px;
+	 height: 13px;
+	 top: 164px;
+	 left: 451px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 112;
+	 
+}
+
+#label126 {
+	 width: 31px;
+	 height: 13px;
+	 top: 134px;
+	 left: 451px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 111;
+	 
+}
+
+#label125 {
+	 width: 30px;
+	 height: 13px;
+	 top: 164px;
+	 left: 362px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 110;
+	 
+}
+
+#label124 {
+	 width: 30px;
+	 height: 13px;
+	 top: 134px;
+	 left: 362px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 109;
+	 
+}
+
+#label123 {
+	 width: 6px;
+	 height: 13px;
+	 top: 164px;
+	 left: 295px;
+	
+	 position: absolute;
+	 z-index: 108;
+	 
+}
+
+#label122 {
+	 width: 6px;
+	 height: 13px;
+	 top: 134px;
+	 left: 295px;
+	
+	 position: absolute;
+	 z-index: 107;
+	 
+}
+
+#label121 {
+	 width: 17px;
+	 height: 13px;
+	 top: 164px;
+	 left: 217px;
+	
+	 position: absolute;
+	 z-index: 104;
+	 
+}
+
+#label120 {
+	 width: 16px;
+	 height: 13px;
+	 top: 134px;
+	 left: 218px;
+	
+	 position: absolute;
+	 z-index: 103;
+	 
+}
+
+#label119 {
+	 width: 25px;
+	 height: 13px;
+	 top: 134px;
+	 left: 95px;
+	
+	 position: absolute;
+	 z-index: 102;
+	 
+}
+
+#label118 {
+	 width: 31px;
+	 height: 13px;
+	 top: 10px;
+	 left: 427px;
+	
+	 position: absolute;
+	 z-index: 101;
+	 
+}
+
+#label117 {
+	 width: 16px;
+	 height: 13px;
+	 top: 74px;
+	 left: 218px;
+	
+	 position: absolute;
+	 z-index: 100;
+	 
+}
+
+#label116 {
+	 width: 6px;
+	 height: 13px;
+	 top: 74px;
+	 left: 546px;
+	
+	 position: absolute;
+	 z-index: 98;
+	 
+}
+
+#label115 {
+	 width: 31px;
+	 height: 13px;
+	 top: 74px;
+	 left: 451px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 97;
+	 
+}
+
+#label114 {
+	 z-index: 96;
+	 width: 30px;
+	 height: 13px;
+	 top: 74px;
+	 left: 362px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 
+}
+
+#label113 {
+	 width: 6px;
+	 height: 13px;
+	 top: 74px;
+	 left: 295px;
+	
+	 position: absolute;
+	 z-index: 95;
+	 
+}
+
+#label112 {
+	 width: 17px;
+	 height: 13px;
+	 top: 104px;
+	 left: 217px;
+	
+	 position: absolute;
+	 z-index: 94;
+	 
+}
+
+#label111 {
+	 width: 7px;
+	 height: 13px;
+	 top: 10px;
+	 left: 286px;
+	
+	 position: absolute;
+	 z-index: 92;
+	 
+}
+
+#label110 {
+	 width: 7px;
+	 height: 13px;
+	 top: 10px;
+	 left: 355px;
+	
+	 position: absolute;
+	 z-index: 91;
+	 
+}
+
+#label109 {
+	 width: 50px;
+	 height: 13px;
+	 top: 10px;
+	 left: 529px;
+	
+	 position: absolute;
+	 min-width: 50px;
+	 z-index: 90;
+	 
+}
+
+#label108 {
+	 width: 55px;
+	 height: 13px;
+	 top: 39px;
+	 left: 96px;
+	
+	 position: absolute;
+	 min-width: 55px;
+	 z-index: 89;
+	 
+}
+
+#label107 {
+	 width: 40px;
+	 height: 13px;
+	 top: 39px;
+	 left: 296px;
+	
+	 position: absolute;
+	 min-width: 40px;
+	 z-index: 88;
+	 
+}
+
+#label106 {
+	 width: 25px;
+	 height: 13px;
+	 top: 74px;
+	 left: 95px;
+	
+	 position: absolute;
+	 z-index: 87;
+	 
+}
+
+#label105 {
+	 width: 6px;
+	 height: 13px;
+	 top: 104px;
+	 left: 295px;
+	
+	 position: absolute;
+	 z-index: 86;
+	 
+}
+
+#label104 {
+	 width: 30px;
+	 height: 13px;
+	 top: 104px;
+	 left: 362px;
+	
+	 position: absolute;
+	 min-width: 30px;
 	 z-index: 85;
 	 
 }
 
-#textField70 {
+#label103 {
+	 width: 31px;
+	 height: 13px;
+	 top: 104px;
+	 left: 451px;
+	
+	 position: absolute;
+	 min-width: 30px;
 	 z-index: 84;
+	 
+}
+
+#label102 {
+	 width: 6px;
+	 height: 13px;
+	 top: 104px;
+	 left: 546px;
+	
+	 position: absolute;
+	 z-index: 83;
+	 
+}
+
+#label101 {
+	 width: 7px;
+	 height: 13px;
+	 top: 74px;
+	 left: 613px;
+	
+	 position: absolute;
+	 z-index: 82;
+	 
+}
+
+#label100 {
+	 width: 23px;
+	 height: 13px;
+	 top: 10px;
+	 left: 200px;
+	
+	 position: absolute;
+	 z-index: 81;
+	 
+}
+
+#label99 {
+	 width: 22px;
+	 height: 13px;
+	 top: 193px;
+	 left: 95px;
+	
+	 position: absolute;
+	 min-width: 20px;
+	 z-index: 80;
+	 
+}
+
+#label98 {
+	 width: 31px;
+	 height: 13px;
+	 top: 231px;
+	 left: 427px;
+	
+	 position: absolute;
+	 z-index: 79;
+	 
+}
+
+#label97 {
+	 width: 7px;
+	 height: 13px;
+	 top: 231px;
+	 left: 286px;
+	
+	 position: absolute;
+	 z-index: 77;
+	 
+}
+
+#label96 {
+	 width: 7px;
+	 height: 13px;
+	 top: 231px;
+	 left: 355px;
+	
+	 position: absolute;
+	 z-index: 76;
+	 
+}
+
+#label95 {
+	 width: 50px;
+	 height: 13px;
+	 top: 231px;
+	 left: 529px;
+	
+	 position: absolute;
+	 min-width: 50px;
+	 z-index: 75;
+	 
+}
+
+#label94 {
+	 width: 55px;
+	 height: 13px;
+	 top: 260px;
+	 left: 96px;
+	
+	 position: absolute;
+	 min-width: 55px;
+	 z-index: 74;
+	 
+}
+
+#label93 {
+	 width: 30px;
+	 height: 13px;
+	 top: 230px;
+	 left: 61px;
+	
+	 position: absolute;
+	 min-width: 30px;
+	 z-index: 73;
+	 
+}
+
+#label92 {
+	 width: 40px;
+	 height: 13px;
+	 top: 260px;
+	 left: 296px;
+	
+	 position: absolute;
+	 min-width: 40px;
+	 z-index: 72;
+	 
+}
+
+#label91 {
+	 width: 23px;
+	 height: 13px;
+	 top: 231px;
+	 left: 200px;
+	
+	 position: absolute;
+	 z-index: 71;
+	 
+}
+
+#textField163 {
+	 top: 530px;
+	 bottom: 10px;
+	 left: 34px;
+	 right: 10px;
+	
+	 position: absolute;
+	 z-index: 164;
+	 
+}
+
+#textField162 {
 	 width: 50px;
 	 height: 22px;
-	 top: 509px;
+	 top: 499px;
+	 left: 469px;
+	
+	 position: absolute;
+	 z-index: 163;
+	 
+}
+
+#textField161 {
+	 width: 50px;
+	 height: 22px;
+	 top: 469px;
+	 left: 469px;
+	
+	 position: absolute;
+	 z-index: 162;
+	 
+}
+
+#textField160 {
+	 width: 50px;
+	 height: 22px;
+	 top: 499px;
+	 left: 385px;
+	
+	 position: absolute;
+	 z-index: 161;
+	 
+}
+
+#textField159 {
+	 width: 50px;
+	 height: 22px;
+	 top: 469px;
+	 left: 385px;
+	
+	 position: absolute;
+	 z-index: 160;
+	 
+}
+
+#textField158 {
+	 width: 50px;
+	 height: 22px;
+	 top: 441px;
+	 left: 469px;
+	
+	 position: absolute;
+	 z-index: 159;
+	 
+}
+
+#textField157 {
+	 width: 50px;
+	 height: 22px;
+	 top: 441px;
+	 left: 385px;
+	
+	 position: absolute;
+	 z-index: 158;
+	 
+}
+
+#textField156 {
+	 width: 50px;
+	 height: 22px;
+	 top: 411px;
+	 left: 469px;
+	
+	 position: absolute;
+	 z-index: 157;
+	 
+}
+
+#textField155 {
+	 width: 50px;
+	 height: 22px;
+	 top: 411px;
+	 left: 385px;
+	
+	 position: absolute;
+	 z-index: 156;
+	 
+}
+
+#richText27 {
+	 width: 60px;
+	 height: 20px;
+	 top: 412px;
+	 left: 6px;
+	
+	 position: absolute;
+	 font-size: 14px;
+	 z-index: 155;
+	 
+}
+
+#textField154 {
+	 width: 50px;
+	 height: 22px;
+	 top: 499px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 154;
+	 
+}
+
+#textField153 {
+	 width: 50px;
+	 height: 22px;
+	 top: 469px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 153;
+	 
+}
+
+#textField152 {
+	 width: 50px;
+	 height: 22px;
+	 top: 441px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 152;
+	 
+}
+
+#textField151 {
+	 width: 50px;
+	 height: 22px;
+	 top: 411px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 151;
+	 
+}
+
+#textField150 {
+	 width: 80px;
+	 height: 22px;
+	 top: 469px;
+	 left: 125px;
+	
+	 position: absolute;
+	 z-index: 150;
+	 
+}
+
+#textField149 {
+	 width: 50px;
+	 height: 22px;
+	 top: 499px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 149;
+	 
+}
+
+#textField148 {
+	 width: 50px;
+	 height: 22px;
+	 top: 469px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 148;
+	 
+}
+
+#textField147 {
+	 width: 80px;
+	 height: 22px;
+	 top: 411px;
+	 left: 125px;
+	
+	 position: absolute;
+	 z-index: 147;
+	 
+}
+
+#textField146 {
+	 width: 50px;
+	 height: 22px;
+	 top: 441px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 146;
+	 
+}
+
+#textField145 {
+	 width: 50px;
+	 height: 22px;
+	 top: 411px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 145;
+	 
+}
+
+#textField144 {
+	 width: 50px;
+	 height: 22px;
+	 top: 348px;
+	 left: 397px;
+	
+	 position: absolute;
+	 z-index: 144;
+	 
+}
+
+#richText26 {
+	 width: 50px;
+	 height: 16px;
+	 top: 381px;
+	 left: 276px;
+	
+	 position: absolute;
+	 z-index: 143;
+	 
+}
+
+#textField143 {
+	 height: 22px;
+	 top: 348px;
+	 left: 625px;
+	 right: 10px;
+	
+	 position: absolute;
+	 z-index: 142;
+	 
+}
+
+#textField142 {
+	 width: 50px;
+	 height: 22px;
+	 top: 378px;
+	 left: 557px;
+	
+	 position: absolute;
+	 z-index: 141;
+	 
+}
+
+#textField141 {
+	 width: 50px;
+	 height: 22px;
+	 top: 378px;
+	 left: 487px;
+	
+	 position: absolute;
+	 z-index: 140;
+	 
+}
+
+#textField140 {
+	 width: 50px;
+	 height: 22px;
+	 top: 378px;
+	 left: 397px;
+	
+	 position: absolute;
+	 z-index: 139;
+	 
+}
+
+#textField139 {
+	 width: 50px;
+	 height: 22px;
+	 top: 378px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 138;
+	 
+}
+
+#richText25 {
+	 width: 50px;
+	 height: 16px;
+	 top: 351px;
+	 left: 276px;
+	
+	 position: absolute;
+	 z-index: 137;
+	 
+}
+
+#textField138 {
+	 width: 80px;
+	 height: 22px;
+	 top: 348px;
+	 left: 125px;
+	
+	 position: absolute;
+	 z-index: 136;
+	 
+}
+
+#textField137 {
+	 width: 50px;
+	 height: 22px;
+	 top: 378px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 135;
+	 
+}
+
+#textField136 {
+	 width: 50px;
+	 height: 22px;
+	 top: 348px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 134;
+	 
+}
+
+#textField135 {
+	 width: 50px;
+	 height: 22px;
+	 top: 348px;
+	 left: 487px;
+	
+	 position: absolute;
+	 z-index: 133;
+	 
+}
+
+#textField134 {
+	 width: 50px;
+	 height: 22px;
+	 top: 348px;
+	 left: 557px;
+	
+	 position: absolute;
+	 z-index: 132;
+	 
+}
+
+#textField133 {
+	 width: 50px;
+	 height: 22px;
+	 top: 348px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 131;
+	 
+}
+
+#textField132 {
+	 width: 50px;
+	 height: 22px;
+	 top: 290px;
+	 left: 397px;
+	
+	 position: absolute;
+	 z-index: 130;
+	 
+}
+
+#richText24 {
+	 width: 50px;
+	 height: 16px;
+	 top: 323px;
+	 left: 276px;
+	
+	 position: absolute;
+	 z-index: 129;
+	 
+}
+
+#textField131 {
+	 height: 22px;
+	 top: 290px;
+	 left: 625px;
+	 right: 10px;
+	
+	 position: absolute;
+	 z-index: 128;
+	 
+}
+
+#textField130 {
+	 width: 50px;
+	 height: 22px;
+	 top: 320px;
+	 left: 557px;
+	
+	 position: absolute;
+	 z-index: 127;
+	 
+}
+
+#textField129 {
+	 width: 50px;
+	 height: 22px;
+	 top: 320px;
+	 left: 487px;
+	
+	 position: absolute;
+	 z-index: 126;
+	 
+}
+
+#textField128 {
+	 width: 50px;
+	 height: 22px;
+	 top: 320px;
+	 left: 397px;
+	
+	 position: absolute;
+	 z-index: 125;
+	 
+}
+
+#textField127 {
+	 width: 50px;
+	 height: 22px;
+	 top: 320px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 124;
+	 
+}
+
+#richText23 {
+	 width: 50px;
+	 height: 16px;
+	 top: 293px;
+	 left: 276px;
+	
+	 position: absolute;
+	 z-index: 123;
+	 
+}
+
+#textField126 {
+	 width: 80px;
+	 height: 22px;
+	 top: 290px;
+	 left: 125px;
+	
+	 position: absolute;
+	 z-index: 122;
+	 
+}
+
+#textField125 {
+	 width: 50px;
+	 height: 22px;
+	 top: 320px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 121;
+	 
+}
+
+#textField124 {
+	 width: 50px;
+	 height: 22px;
+	 top: 290px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 120;
+	 
+}
+
+#textField123 {
+	 width: 50px;
+	 height: 22px;
+	 top: 290px;
+	 left: 487px;
+	
+	 position: absolute;
+	 z-index: 119;
+	 
+}
+
+#textField122 {
+	 width: 50px;
+	 height: 22px;
+	 top: 290px;
+	 left: 557px;
+	
+	 position: absolute;
+	 z-index: 118;
+	 
+}
+
+#textField121 {
+	 width: 50px;
+	 height: 22px;
+	 top: 290px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 117;
+	 
+}
+
+#textField120 {
+	 width: 100px;
+	 height: 22px;
+	 top: 5px;
+	 left: 96px;
+	
+	 position: absolute;
+	 z-index: 116;
+	 
+}
+
+#textField119 {
+	 height: 22px;
+	 top: 130px;
+	 left: 625px;
+	 right: 10px;
+	
+	 position: absolute;
+	 z-index: 115;
+	 
+}
+
+#textField118 {
+	 width: 50px;
+	 height: 22px;
+	 top: 160px;
+	 left: 557px;
+	
+	 position: absolute;
+	 z-index: 114;
+	 
+}
+
+#textField117 {
+	 width: 50px;
+	 height: 22px;
+	 top: 130px;
+	 left: 557px;
+	
+	 position: absolute;
+	 z-index: 113;
+	 
+}
+
+#textField116 {
+	 width: 50px;
+	 height: 22px;
+	 top: 160px;
+	 left: 487px;
+	
+	 position: absolute;
+	 z-index: 112;
+	 
+}
+
+#textField115 {
+	 width: 50px;
+	 height: 22px;
+	 top: 130px;
+	 left: 487px;
+	
+	 position: absolute;
+	 z-index: 111;
+	 
+}
+
+#textField114 {
+	 width: 50px;
+	 height: 22px;
+	 top: 160px;
+	 left: 397px;
+	
+	 position: absolute;
+	 z-index: 110;
+	 
+}
+
+#textField113 {
+	 width: 50px;
+	 height: 22px;
+	 top: 130px;
+	 left: 397px;
+	
+	 position: absolute;
+	 z-index: 109;
+	 
+}
+
+#textField112 {
+	 width: 50px;
+	 height: 22px;
+	 top: 160px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 108;
+	 
+}
+
+#textField111 {
+	 width: 50px;
+	 height: 22px;
+	 top: 130px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 107;
+	 
+}
+
+#richText22 {
+	 width: 50px;
+	 height: 16px;
+	 top: 163px;
+	 left: 276px;
+	
+	 position: absolute;
+	 z-index: 106;
+	 
+}
+
+#richText21 {
+	 width: 50px;
+	 height: 16px;
+	 top: 133px;
+	 left: 276px;
+	
+	 position: absolute;
+	 z-index: 105;
+	 
+}
+
+#textField110 {
+	 width: 50px;
+	 height: 22px;
+	 top: 160px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 104;
+	 
+}
+
+#textField109 {
+	 width: 50px;
+	 height: 22px;
+	 top: 130px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 103;
+	 
+}
+
+#textField108 {
+	 width: 80px;
+	 height: 22px;
+	 top: 130px;
+	 left: 125px;
+	
+	 position: absolute;
+	 z-index: 102;
+	 
+}
+
+#textField107 {
+	 width: 59px;
+	 height: 22px;
+	 top: 6px;
+	 left: 463px;
+	
+	 position: absolute;
+	 z-index: 101;
+	 
+}
+
+#textField106 {
+	 width: 50px;
+	 height: 22px;
+	 top: 70px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 100;
+	 
+}
+
+#richText20 {
+	 width: 50px;
+	 height: 16px;
+	 top: 103px;
+	 left: 276px;
+	
+	 position: absolute;
+	 z-index: 99;
+	 
+}
+
+#textField105 {
+	 width: 50px;
+	 height: 22px;
+	 top: 70px;
+	 left: 557px;
+	
+	 position: absolute;
+	 z-index: 98;
+	 
+}
+
+#textField104 {
+	 width: 50px;
+	 height: 22px;
+	 top: 70px;
+	 left: 487px;
+	
+	 position: absolute;
+	 z-index: 97;
+	 
+}
+
+#textField103 {
+	 z-index: 96;
+	 width: 50px;
+	 height: 22px;
+	 top: 70px;
+	 left: 397px;
+	
+	 position: absolute;
+	 
+}
+
+#textField102 {
+	 width: 50px;
+	 height: 22px;
+	 top: 70px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 95;
+	 
+}
+
+#textField101 {
+	 width: 50px;
+	 height: 22px;
+	 top: 100px;
+	 left: 239px;
+	
+	 position: absolute;
+	 z-index: 94;
+	 
+}
+
+#richText19 {
+	 width: 50px;
+	 height: 16px;
+	 top: 10px;
+	 left: 7px;
+	
+	 position: absolute;
+	 z-index: 93;
+	 
+}
+
+#textField100 {
+	 width: 50px;
+	 height: 22px;
+	 top: 6px;
+	 left: 298px;
+	
+	 position: absolute;
+	 z-index: 92;
+	 
+}
+
+#textField99 {
+	 width: 50px;
+	 height: 22px;
+	 top: 6px;
+	 left: 367px;
+	
+	 position: absolute;
+	 z-index: 91;
+	 
+}
+
+#textField98 {
+	 width: 65px;
+	 height: 22px;
+	 top: 6px;
+	 left: 584px;
+	
+	 position: absolute;
+	 z-index: 90;
+	 
+}
+
+#richText18 {
+	 width: 37px;
+	 height: 16px;
+	 top: 9px;
+	 left: 623px;
+	
+	 position: absolute;
+	 z-index: 166;
+	 
+}
+
+#textField97 {
+	 width: 130px;
+	 height: 22px;
+	 top: 35px;
+	 left: 156px;
+	
+	 position: absolute;
+	 z-index: 89;
+	 
+}
+
+#textField96 {
+	 width: 308px;
+	 height: 22px;
+	 top: 35px;
+	 left: 341px;
+	
+	 position: absolute;
+	 z-index: 88;
+	 
+}
+
+#textField95 {
+	 width: 80px;
+	 height: 22px;
+	 top: 70px;
+	 left: 125px;
+	
+	 position: absolute;
+	 z-index: 87;
+	 
+}
+
+#richText17 {
+	 width: 50px;
+	 height: 16px;
+	 top: 73px;
+	 left: 276px;
+	
+	 position: absolute;
+	 z-index: 165;
+	 
+}
+
+#textField94 {
+	 width: 50px;
+	 height: 22px;
+	 top: 100px;
+	 left: 306px;
+	
+	 position: absolute;
+	 z-index: 86;
+	 
+}
+
+#textField93 {
+	 width: 50px;
+	 height: 22px;
+	 top: 100px;
+	 left: 397px;
+	
+	 position: absolute;
+	 z-index: 85;
+	 
+}
+
+#textField92 {
+	 width: 50px;
+	 height: 22px;
+	 top: 100px;
+	 left: 487px;
+	
+	 position: absolute;
+	 z-index: 84;
+	 
+}
+
+#textField91 {
+	 width: 50px;
+	 height: 22px;
+	 top: 100px;
+	 left: 557px;
+	
+	 position: absolute;
+	 z-index: 83;
+	 
+}
+
+#textField90 {
+	 height: 22px;
+	 top: 70px;
+	 left: 625px;
+	 right: 10px;
+	
+	 position: absolute;
+	 z-index: 82;
+	 
+}
+
+#textField89 {
+	 width: 50px;
+	 height: 22px;
+	 top: 6px;
+	 left: 228px;
+	
+	 position: absolute;
+	 z-index: 81;
+	 
+}
+
+#textField88 {
+	 height: 22px;
+	 top: 189px;
+	 left: 122px;
+	 right: 10px;
+	
+	 position: absolute;
+	 z-index: 80;
+	 
+}
+
+#textField87 {
+	 width: 59px;
+	 height: 22px;
+	 top: 227px;
+	 left: 463px;
+	
+	 position: absolute;
+	 z-index: 79;
+	 
+}
+
+#richText16 {
+	 width: 50px;
+	 height: 16px;
+	 top: 231px;
+	 left: 7px;
+	
+	 position: absolute;
+	 z-index: 78;
+	 
+}
+
+#textField86 {
+	 width: 50px;
+	 height: 22px;
+	 top: 227px;
+	 left: 298px;
+	
+	 position: absolute;
+	 z-index: 77;
+	 
+}
+
+#textField85 {
+	 width: 50px;
+	 height: 22px;
+	 top: 227px;
+	 left: 367px;
+	
+	 position: absolute;
+	 z-index: 76;
+	 
+}
+
+#textField84 {
+	 width: 65px;
+	 height: 22px;
+	 top: 227px;
+	 left: 584px;
+	
+	 position: absolute;
+	 z-index: 75;
+	 
+}
+
+#richText15 {
+	 width: 37px;
+	 height: 16px;
+	 top: 230px;
+	 left: 623px;
+	
+	 position: absolute;
+	 z-index: 167;
+	 
+}
+
+#textField83 {
+	 width: 130px;
+	 height: 22px;
+	 top: 256px;
+	 left: 156px;
+	
+	 position: absolute;
+	 z-index: 74;
+	 
+}
+
+#textField82 {
+	 width: 100px;
+	 height: 22px;
+	 top: 226px;
+	 left: 96px;
+	
+	 position: absolute;
+	 z-index: 73;
+	 
+}
+
+#textField81 {
+	 width: 308px;
+	 height: 22px;
+	 top: 256px;
+	 left: 341px;
+	
+	 position: absolute;
+	 z-index: 72;
+	 
+}
+
+#textField80 {
+	 width: 50px;
+	 height: 22px;
+	 top: 227px;
+	 left: 228px;
+	
+	 position: absolute;
+	 z-index: 71;
+	 
+}
+
+#button4 {
+	 width: 110px;
+	 height: 25px;
+	 top: 69px;
+	 left: 64px;
+	
+	 position: absolute;
+	 color: rgb(0, 0, 0);
+	 font-weight: bold;
+	 font-size: 12px;
+	 font-style: normal;
+	 text-decoration: none;
+	 text-align: center;
+	 background-color: rgb(240, 240, 240);
+	 background-image:url("data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9IndhZi1pZS1ncmFkaWVudCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZmZmZiIgb2Zmc2V0PSIwJSIgc3RvcC1vcGFjaXR5PSIxIiAvPjxzdG9wIHN0b3AtY29sb3I9IiNmZmZmZmYiIG9mZnNldD0iNDclIiBzdG9wLW9wYWNpdHk9IjEiIC8+PHN0b3Agc3RvcC1jb2xvcj0iI2YyZjJmMiIgb2Zmc2V0PSI1MSUiIHN0b3Atb3BhY2l0eT0iMSIgLz48c3RvcCBzdG9wLWNvbG9yPSIjZjJmMmYyIiBvZmZzZXQ9IjEwMCUiIHN0b3Atb3BhY2l0eT0iMSIgLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjd2FmLWllLWdyYWRpZW50KSIgLz48L3N2Zz4=");
+	 background-image:-webkit-gradient(linear,0% 0%, 0% 100%,color-stop(0, rgb(255,255,255)),color-stop(0.47, rgb(255,255,255)),color-stop(0.51, rgb(242,242,242)),color-stop(1, rgb(242,242,242)));
+	 background-image:-webkit-linear-gradient(top, rgb(255,255,255) 0%,rgb(255,255,255) 47%,rgb(242,242,242) 51%,rgb(242,242,242) 100%);
+	 background-image:-moz-linear-gradient(top, rgb(255,255,255) 0%,rgb(255,255,255) 47%,rgb(242,242,242) 51%,rgb(242,242,242) 100%);
+	 background-image:-ms-linear-gradient(top, rgb(255,255,255) 0%,rgb(255,255,255) 47%,rgb(242,242,242) 51%,rgb(242,242,242) 100%);
+	 background-image:-o-linear-gradient(top, rgb(255,255,255) 0%,rgb(255,255,255) 47%,rgb(242,242,242) 51%,rgb(242,242,242) 100%);
+	 background-image:linear-gradient(top, rgb(255,255,255) 0%,rgb(255,255,255) 47%,rgb(242,242,242) 51%,rgb(242,242,242) 100%);
+	 z-index: 2;
+	 
+}
+
+#button3 {
+	 z-index: 1;
+	 width: 110px;
+	 height: 25px;
+	 top: 97px;
+	 left: 64px;
+	
+	 position: absolute;
+	 color: rgb(0, 0, 0);
+	 font-weight: bold;
+	 font-size: 12px;
+	 font-style: normal;
+	 text-decoration: none;
+	 text-align: center;
+	 
+}
+
+#textField79 {
+	 z-index: 96;
+	 height: 22px;
+	 top: 530px;
+	 left: 34px;
+	 right: 10px;
+	
+	 position: absolute;
+	 
+}
+
+#label90 {
+	 z-index: 96;
+	 height: 13px;
+	 top: 534px;
+	 left: 7px;
+	 right: 672px;
+	
+	 position: absolute;
+	 min-width: 20px;
+	 
+}
+
+#textField78 {
+	 z-index: 94;
+	 width: 50px;
+	 height: 22px;
+	 top: 499px;
+	 left: 469px;
+	
+	 position: absolute;
+	 
+}
+
+#label89 {
+	 z-index: 93;
+	 width: 8px;
+	 height: 13px;
+	 top: 503px;
+	 left: 456px;
+	
+	 position: absolute;
+	 
+}
+
+#textField77 {
+	 z-index: 92;
+	 width: 50px;
+	 height: 22px;
+	 top: 469px;
+	 left: 469px;
+	
+	 position: absolute;
+	 
+}
+
+#label88 {
+	 z-index: 92;
+	 width: 8px;
+	 height: 13px;
+	 top: 473px;
+	 left: 456px;
+	
+	 position: absolute;
+	 
+}
+
+#textField76 {
+	 z-index: 91;
+	 width: 50px;
+	 height: 22px;
+	 top: 499px;
+	 left: 385px;
+	
+	 position: absolute;
+	 
+}
+
+#label87 {
+	 z-index: 91;
+	 width: 8px;
+	 height: 13px;
+	 top: 503px;
+	 left: 372px;
+	
+	 position: absolute;
+	 
+}
+
+#textField75 {
+	 z-index: 89;
+	 width: 50px;
+	 height: 22px;
+	 top: 469px;
+	 left: 385px;
+	
+	 position: absolute;
+	 
+}
+
+#label86 {
+	 z-index: 89;
+	 width: 8px;
+	 height: 13px;
+	 top: 473px;
+	 left: 372px;
+	
+	 position: absolute;
+	 
+}
+
+#textField74 {
+	 z-index: 88;
+	 width: 50px;
+	 height: 22px;
+	 top: 441px;
+	 left: 469px;
+	
+	 position: absolute;
+	 
+}
+
+#label85 {
+	 z-index: 88;
+	 width: 8px;
+	 height: 13px;
+	 top: 445px;
+	 left: 456px;
+	
+	 position: absolute;
+	 
+}
+
+#textField73 {
+	 z-index: 87;
+	 width: 50px;
+	 height: 22px;
+	 top: 441px;
+	 left: 385px;
+	
+	 position: absolute;
+	 
+}
+
+#label84 {
+	 z-index: 87;
+	 width: 8px;
+	 height: 13px;
+	 top: 445px;
+	 left: 372px;
+	
+	 position: absolute;
+	 
+}
+
+#textField72 {
+	 z-index: 86;
+	 width: 50px;
+	 height: 22px;
+	 top: 411px;
+	 left: 469px;
+	
+	 position: absolute;
+	 
+}
+
+#label83 {
+	 z-index: 86;
+	 width: 8px;
+	 height: 13px;
+	 top: 415px;
+	 left: 456px;
+	
+	 position: absolute;
+	 
+}
+
+#textField71 {
+	 z-index: 85;
+	 width: 50px;
+	 height: 22px;
+	 top: 411px;
+	 left: 385px;
+	
+	 position: absolute;
+	 
+}
+
+#label82 {
+	 z-index: 85;
+	 width: 8px;
+	 height: 13px;
+	 top: 415px;
+	 left: 372px;
+	
+	 position: absolute;
+	 
+}
+
+#richText14 {
+	 z-index: 84;
+	 width: 60px;
+	 height: 20px;
+	 top: 412px;
+	 left: 6px;
+	
+	 position: absolute;
+	 font-size: 14px;
+	 
+}
+
+#textField70 {
+	 z-index: 83;
+	 width: 50px;
+	 height: 22px;
+	 top: 499px;
 	 left: 306px;
 	
 	 position: absolute;
@@ -27,10 +2286,10 @@
 }
 
 #label81 {
-	 z-index: 84;
+	 z-index: 83;
 	 width: 9px;
 	 height: 13px;
-	 top: 513px;
+	 top: 503px;
 	 left: 292px;
 	
 	 position: absolute;
@@ -38,10 +2297,10 @@
 }
 
 #textField69 {
-	 z-index: 83;
+	 z-index: 82;
 	 width: 50px;
 	 height: 22px;
-	 top: 479px;
+	 top: 469px;
 	 left: 306px;
 	
 	 position: absolute;
@@ -49,10 +2308,10 @@
 }
 
 #label80 {
-	 z-index: 83;
+	 z-index: 82;
 	 width: 9px;
 	 height: 13px;
-	 top: 483px;
+	 top: 473px;
 	 left: 292px;
 	
 	 position: absolute;
@@ -63,7 +2322,7 @@
 	 z-index: 81;
 	 width: 50px;
 	 height: 22px;
-	 top: 451px;
+	 top: 441px;
 	 left: 306px;
 	
 	 position: absolute;
@@ -74,7 +2333,7 @@
 	 z-index: 81;
 	 width: 9px;
 	 height: 13px;
-	 top: 455px;
+	 top: 445px;
 	 left: 292px;
 	
 	 position: absolute;
@@ -85,7 +2344,7 @@
 	 z-index: 80;
 	 width: 50px;
 	 height: 22px;
-	 top: 421px;
+	 top: 411px;
 	 left: 306px;
 	
 	 position: absolute;
@@ -96,7 +2355,7 @@
 	 z-index: 80;
 	 width: 9px;
 	 height: 13px;
-	 top: 425px;
+	 top: 415px;
 	 left: 292px;
 	
 	 position: absolute;
@@ -107,7 +2366,7 @@
 	 z-index: 79;
 	 width: 80px;
 	 height: 22px;
-	 top: 479px;
+	 top: 469px;
 	 left: 125px;
 	
 	 position: absolute;
@@ -118,7 +2377,7 @@
 	 z-index: 79;
 	 width: 25px;
 	 height: 13px;
-	 top: 483px;
+	 top: 473px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -129,7 +2388,7 @@
 	 z-index: 78;
 	 width: 50px;
 	 height: 22px;
-	 top: 509px;
+	 top: 499px;
 	 left: 239px;
 	
 	 position: absolute;
@@ -140,7 +2399,7 @@
 	 z-index: 78;
 	 width: 17px;
 	 height: 13px;
-	 top: 513px;
+	 top: 503px;
 	 left: 217px;
 	
 	 position: absolute;
@@ -151,7 +2410,7 @@
 	 z-index: 77;
 	 width: 50px;
 	 height: 22px;
-	 top: 479px;
+	 top: 469px;
 	 left: 239px;
 	
 	 position: absolute;
@@ -162,7 +2421,7 @@
 	 z-index: 77;
 	 width: 16px;
 	 height: 13px;
-	 top: 483px;
+	 top: 473px;
 	 left: 218px;
 	
 	 position: absolute;
@@ -173,7 +2432,7 @@
 	 z-index: 76;
 	 width: 80px;
 	 height: 22px;
-	 top: 421px;
+	 top: 411px;
 	 left: 125px;
 	
 	 position: absolute;
@@ -183,8 +2442,8 @@
 #label74 {
 	 z-index: 76;
 	 width: 25px;
-	 height: 16px;
-	 top: 424px;
+	 height: 13px;
+	 top: 415px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -195,7 +2454,7 @@
 	 z-index: 75;
 	 width: 50px;
 	 height: 22px;
-	 top: 451px;
+	 top: 441px;
 	 left: 239px;
 	
 	 position: absolute;
@@ -206,7 +2465,7 @@
 	 z-index: 74;
 	 width: 17px;
 	 height: 13px;
-	 top: 455px;
+	 top: 445px;
 	 left: 217px;
 	
 	 position: absolute;
@@ -217,7 +2476,7 @@
 	 z-index: 74;
 	 width: 50px;
 	 height: 22px;
-	 top: 421px;
+	 top: 411px;
 	 left: 239px;
 	
 	 position: absolute;
@@ -227,8 +2486,8 @@
 #label72 {
 	 z-index: 74;
 	 width: 16px;
-	 height: 16px;
-	 top: 424px;
+	 height: 13px;
+	 top: 415px;
 	 left: 218px;
 	
 	 position: absolute;
@@ -282,10 +2541,10 @@
 
 #label70 {
 	 z-index: 70;
-	 height: 16px;
-	 top: 351px;
-	 left: 612px;
-	 right: 74px;
+	 height: 13px;
+	 top: 352px;
+	 left: 613px;
+	 right: 81px;
 	
 	 position: absolute;
 	 
@@ -304,10 +2563,10 @@
 
 #label69 {
 	 z-index: 69;
-	 width: 7px;
-	 height: 16px;
-	 top: 381px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 382px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -372,10 +2631,10 @@
 
 #label66 {
 	 z-index: 66;
-	 width: 7px;
-	 height: 16px;
-	 top: 381px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 382px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -406,8 +2665,8 @@
 #label65 {
 	 z-index: 65;
 	 width: 25px;
-	 height: 16px;
-	 top: 351px;
+	 height: 13px;
+	 top: 352px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -427,10 +2686,10 @@
 
 #label64 {
 	 z-index: 64;
-	 width: 16px;
-	 height: 16px;
-	 top: 381px;
-	 left: 218px;
+	 width: 17px;
+	 height: 13px;
+	 top: 382px;
+	 left: 217px;
 	
 	 position: absolute;
 	 
@@ -449,10 +2708,10 @@
 
 #label63 {
 	 z-index: 63;
-	 width: 7px;
-	 height: 16px;
-	 top: 351px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 352px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -494,10 +2753,10 @@
 
 #label61 {
 	 z-index: 61;
-	 width: 7px;
-	 height: 16px;
-	 top: 351px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 352px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -517,8 +2776,8 @@
 #label60 {
 	 z-index: 60;
 	 width: 16px;
-	 height: 16px;
-	 top: 351px;
+	 height: 13px;
+	 top: 352px;
 	 left: 218px;
 	
 	 position: absolute;
@@ -572,10 +2831,10 @@
 
 #label58 {
 	 z-index: 58;
-	 height: 16px;
-	 top: 293px;
-	 left: 612px;
-	 right: 74px;
+	 height: 13px;
+	 top: 294px;
+	 left: 613px;
+	 right: 81px;
 	
 	 position: absolute;
 	 
@@ -594,10 +2853,10 @@
 
 #label57 {
 	 z-index: 57;
-	 width: 7px;
-	 height: 16px;
-	 top: 323px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 324px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -662,10 +2921,10 @@
 
 #label54 {
 	 z-index: 54;
-	 width: 7px;
-	 height: 16px;
-	 top: 323px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 324px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -696,8 +2955,8 @@
 #label53 {
 	 z-index: 53;
 	 width: 25px;
-	 height: 16px;
-	 top: 293px;
+	 height: 13px;
+	 top: 294px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -717,10 +2976,10 @@
 
 #label52 {
 	 z-index: 52;
-	 width: 16px;
-	 height: 16px;
-	 top: 323px;
-	 left: 218px;
+	 width: 17px;
+	 height: 13px;
+	 top: 324px;
+	 left: 217px;
 	
 	 position: absolute;
 	 
@@ -739,10 +2998,10 @@
 
 #label51 {
 	 z-index: 51;
-	 width: 7px;
-	 height: 16px;
-	 top: 293px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 294px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -784,10 +3043,10 @@
 
 #label49 {
 	 z-index: 49;
-	 width: 7px;
-	 height: 16px;
-	 top: 293px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 294px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -807,8 +3066,8 @@
 #label48 {
 	 z-index: 48;
 	 width: 16px;
-	 height: 16px;
-	 top: 293px;
+	 height: 13px;
+	 top: 294px;
 	 left: 218px;
 	
 	 position: absolute;
@@ -831,7 +3090,7 @@
 	 top: 10px;
 	 bottom: 10px;
 	 left: 460px;
-	 right: 20px;
+	 right: 10px;
 	
 	 position: absolute;
 	 background-color: rgb(201, 199, 199);
@@ -839,9 +3098,9 @@
 }
 
 #contOrgAv {
-	 z-index: 3;
-	 height: 558px;
+	 z-index: 4;
 	 top: 68px;
+	 bottom: 10px;
 	 left: 173px;
 	 right: 10px;
 	
@@ -852,8 +3111,8 @@
 #label47 {
 	 z-index: 45;
 	 width: 23px;
-	 height: 16px;
-	 top: 230px;
+	 height: 13px;
+	 top: 231px;
 	 left: 200px;
 	
 	 position: absolute;
@@ -874,8 +3133,8 @@
 #label46 {
 	 z-index: 43;
 	 width: 40px;
-	 height: 16px;
-	 top: 259px;
+	 height: 13px;
+	 top: 260px;
 	 left: 296px;
 	
 	 position: absolute;
@@ -897,8 +3156,8 @@
 #label45 {
 	 z-index: 42;
 	 width: 30px;
-	 height: 16px;
-	 top: 229px;
+	 height: 13px;
+	 top: 230px;
 	 left: 61px;
 	
 	 position: absolute;
@@ -977,8 +3236,8 @@
 #label12 {
 	 z-index: 39;
 	 width: 9px;
-	 height: 16px;
-	 top: 230px;
+	 height: 13px;
+	 top: 231px;
 	 left: 353px;
 	
 	 position: absolute;
@@ -999,8 +3258,8 @@
 #label9 {
 	 z-index: 38;
 	 width: 9px;
-	 height: 16px;
-	 top: 230px;
+	 height: 13px;
+	 top: 231px;
 	 left: 284px;
 	
 	 position: absolute;
@@ -1032,8 +3291,8 @@
 #label8 {
 	 z-index: 37;
 	 width: 31px;
-	 height: 16px;
-	 top: 230px;
+	 height: 13px;
+	 top: 231px;
 	 left: 427px;
 	
 	 position: absolute;
@@ -1053,12 +3312,13 @@
 
 #label4 {
 	 z-index: 36;
-	 height: 16px;
-	 top: 192px;
-	 left: 97px;
-	 right: 577px;
+	 height: 13px;
+	 top: 193px;
+	 left: 95px;
+	 right: 584px;
 	
 	 position: absolute;
+	 min-width: 20px;
 	 
 }
 
@@ -1076,8 +3336,8 @@
 #label11 {
 	 z-index: 36;
 	 width: 23px;
-	 height: 16px;
-	 top: 9px;
+	 height: 13px;
+	 top: 10px;
 	 left: 200px;
 	
 	 position: absolute;
@@ -1097,10 +3357,10 @@
 
 #label22 {
 	 z-index: 36;
-	 height: 16px;
-	 top: 73px;
-	 left: 612px;
-	 right: 74px;
+	 height: 13px;
+	 top: 74px;
+	 left: 613px;
+	 right: 81px;
 	
 	 position: absolute;
 	 
@@ -1119,10 +3379,10 @@
 
 #label21 {
 	 z-index: 35;
-	 width: 7px;
-	 height: 16px;
-	 top: 103px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 104px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -1187,10 +3447,10 @@
 
 #label13 {
 	 z-index: 32;
-	 width: 7px;
-	 height: 16px;
-	 top: 103px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 104px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -1221,8 +3481,8 @@
 #label10 {
 	 z-index: 30;
 	 width: 25px;
-	 height: 16px;
-	 top: 73px;
+	 height: 13px;
+	 top: 74px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -1243,8 +3503,8 @@
 #label19 {
 	 z-index: 29;
 	 width: 40px;
-	 height: 16px;
-	 top: 38px;
+	 height: 13px;
+	 top: 39px;
 	 left: 296px;
 	
 	 position: absolute;
@@ -1323,8 +3583,8 @@
 #label16 {
 	 z-index: 25;
 	 width: 9px;
-	 height: 16px;
-	 top: 9px;
+	 height: 13px;
+	 top: 10px;
 	 left: 353px;
 	
 	 position: absolute;
@@ -1345,8 +3605,8 @@
 #label15 {
 	 z-index: 24;
 	 width: 9px;
-	 height: 16px;
-	 top: 9px;
+	 height: 13px;
+	 top: 10px;
 	 left: 284px;
 	
 	 position: absolute;
@@ -1377,10 +3637,10 @@
 
 #label28 {
 	 z-index: 22;
-	 width: 16px;
-	 height: 16px;
-	 top: 103px;
-	 left: 218px;
+	 width: 17px;
+	 height: 13px;
+	 top: 104px;
+	 left: 217px;
 	
 	 position: absolute;
 	 
@@ -1399,10 +3659,10 @@
 
 #label29 {
 	 z-index: 21;
-	 width: 7px;
-	 height: 16px;
-	 top: 73px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 74px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -1465,10 +3725,10 @@
 
 #label32 {
 	 z-index: 19;
-	 width: 7px;
-	 height: 16px;
-	 top: 73px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 74px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -1499,8 +3759,8 @@
 #label23 {
 	 z-index: 18;
 	 width: 16px;
-	 height: 16px;
-	 top: 73px;
+	 height: 13px;
+	 top: 74px;
 	 left: 218px;
 	
 	 position: absolute;
@@ -1521,8 +3781,8 @@
 #label24 {
 	 z-index: 17;
 	 width: 31px;
-	 height: 16px;
-	 top: 9px;
+	 height: 13px;
+	 top: 10px;
 	 left: 427px;
 	
 	 position: absolute;
@@ -1543,8 +3803,8 @@
 #label25 {
 	 z-index: 15;
 	 width: 25px;
-	 height: 16px;
-	 top: 133px;
+	 height: 13px;
+	 top: 134px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -1565,8 +3825,8 @@
 #label26 {
 	 z-index: 14;
 	 width: 16px;
-	 height: 16px;
-	 top: 133px;
+	 height: 13px;
+	 top: 134px;
 	 left: 218px;
 	
 	 position: absolute;
@@ -1586,10 +3846,10 @@
 
 #label27 {
 	 z-index: 13;
-	 width: 16px;
-	 height: 16px;
-	 top: 163px;
-	 left: 218px;
+	 width: 17px;
+	 height: 13px;
+	 top: 164px;
+	 left: 217px;
 	
 	 position: absolute;
 	 
@@ -1630,10 +3890,10 @@
 
 #label33 {
 	 z-index: 11;
-	 width: 7px;
-	 height: 16px;
-	 top: 133px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 134px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -1652,10 +3912,10 @@
 
 #label34 {
 	 z-index: 10;
-	 width: 7px;
-	 height: 16px;
-	 top: 163px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 164px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -1766,10 +4026,10 @@
 
 #label39 {
 	 z-index: 24;
-	 width: 7px;
-	 height: 16px;
-	 top: 133px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 134px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -1788,10 +4048,10 @@
 
 #label40 {
 	 z-index: 25;
-	 width: 7px;
-	 height: 16px;
-	 top: 163px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 164px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -1810,10 +4070,10 @@
 
 #label41 {
 	 z-index: 27;
-	 height: 16px;
-	 top: 133px;
-	 left: 612px;
-	 right: 74px;
+	 height: 13px;
+	 top: 134px;
+	 left: 613px;
+	 right: 81px;
 	
 	 position: absolute;
 	 
@@ -1833,8 +4093,8 @@
 #label42 {
 	 z-index: 29;
 	 width: 30px;
-	 height: 16px;
-	 top: 8px;
+	 height: 13px;
+	 top: 9px;
 	 left: 61px;
 	
 	 position: absolute;
@@ -1854,10 +4114,10 @@
 }
 
 #label3 {
-	 width: 51px;
-	 height: 16px;
-	 top: 11px;
-	 left: 214px;
+	 width: 47px;
+	 height: 13px;
+	 top: 12px;
+	 left: 218px;
 	
 	 position: absolute;
 	 
@@ -1874,10 +4134,10 @@
 }
 
 #label5 {
-	 width: 67px;
-	 height: 16px;
-	 top: 11px;
-	 left: 429px;
+	 width: 61px;
+	 height: 13px;
+	 top: 12px;
+	 left: 435px;
 	
 	 position: absolute;
 	 
@@ -1894,9 +4154,9 @@
 }
 
 #label6 {
-	 width: 41px;
-	 height: 16px;
-	 top: 10px;
+	 width: 38px;
+	 height: 13px;
+	 top: 11px;
 	 right: 165px;
 	
 	 position: absolute;
@@ -1914,10 +4174,10 @@
 }
 
 #label7 {
-	 height: 16px;
-	 top: 37px;
+	 height: 13px;
+	 top: 38px;
 	 left: 10px;
-	 right: 844px;
+	 right: 851px;
 	
 	 position: absolute;
 	 min-width: 25px;
@@ -1934,31 +4194,21 @@
 	 
 }
 
-#richText1 {
-	 width: 50px;
-	 height: 16px;
-	 top: 78px;
-	 left: 14px;
-	
-	 position: absolute;
-	 
-}
-
 #image3 {
-	 width: 85px;
-	 height: 80px;
-	 top: 124px;
-	 left: 32px;
+	 width: 175px;
+	 height: 170px;
+	 top: 126px;
+	 left: 18px;
 	
 	 position: absolute;
 	 
 }
 
 #label2 {
-	 width: 54px;
-	 height: 16px;
-	 top: 11px;
-	 left: 9px;
+	 width: 49px;
+	 height: 13px;
+	 top: 12px;
+	 left: 14px;
 	
 	 position: absolute;
 	 
@@ -2019,8 +4269,8 @@
 
 #dataGrid2 {
 	 width: 437px;
-	 height: 544px;
 	 top: 70px;
+	 bottom: 10px;
 	 left: 10px;
 	
 	 position: absolute;
@@ -2028,10 +4278,10 @@
 }
 
 #label1 {
-	 width: 49px;
-	 height: 16px;
-	 top: 43px;
-	 left: 110px;
+	 width: 57px;
+	 height: 13px;
+	 top: 44px;
+	 left: 102px;
 	
 	 position: absolute;
 	 min-width: 35px;
@@ -2045,6 +4295,17 @@
 	 left: 164px;
 	
 	 position: absolute;
+	 
+}
+
+#contOrgAr {
+	 top: 68px;
+	 bottom: 10px;
+	 left: 173px;
+	 right: 10px;
+	
+	 position: absolute;
+	 z-index: 3;
 	 
 }
 
