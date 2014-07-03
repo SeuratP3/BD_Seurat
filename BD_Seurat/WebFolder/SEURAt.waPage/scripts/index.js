@@ -2,60 +2,127 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var bCopie = {};	// @button
+	var textArriere = {};	// @textField
+	var textAvant = {};	// @textField
+	var imageAv = {};	// @image
 	var textRecherche = {};	// @textField
 	var button4 = {};	// @button
 	var button3 = {};	// @button
-	var button1 = {};	// @button
-	var textMarque = {};	// @textField
 // @endregion// @endlock
 
 // eventHandlers// @lock
-
 		var $contOrgAv = $("#contOrgAv");
 		var $contOrgAr = $("#contOrgAr");
-		var $button4 = $("#button4");
-		var $button3 = $("#button3");
+		var $button4 = $("#button4"); //Bouton qui affiche la partie AVANT
+		var $button3 = $("#button3"); //Bouton qui affiche la partie ARRIERE
+		var $imageAv = $("#imageAv");
+		var $imageAr = $("#imageAr");
         var txtSrch = "";
+        var txtSrch2 = "";
+        var txtSrch3 = "";
+
+        
+	bCopie.click = function bCopie_click (event)// @startlock
+	{// @endlock
+		// Copier une fiche
+		//WAF.sources.fiche.addEntity(fiche);
+//		var clone = new WAF.sources.fiche({
+//			marque: this.marque,
+//			modele: this.modele
+//		});
+//		clone.save();
+// 
+//		return clone;
+	};// @lock
+
+	textArriere.keyup = function textArriere_keyup (event)// @startlock
+	{// @endlock
+		// Add your code here
+//		var txtR = $$("textArriere").getValue();
+//		
+//        if(txtR!= "")
+//	  		{txtSrch3 = "((ar_oJ_dim2 = "+txtR+") || (ar_aJ_dim2 = "+txtR+"))";}
+// 	 	else
+// 	 		{txtSrch3="";}
+// 	 		
+// 	 	if(txtSrch!= "")
+// 	 		{txtSrch3 += " && ("+txtSrch+")";}
+// 	 	if(txtSrch2!= "")
+// 	 		{txtSrch3 += " && ("+txtSrch2+")";}
+//	 
+//	  	WAF.sources.fiche.query(txtSrch3);
+  
+	};// @lock
+
+	textAvant.keyup = function textAvant_keyup (event)// @startlock
+	{// @endlock
+		// Add your code here		
+//		var txtR = $$("textAvant").getValue();
+//		
+//        if(txtR!= "")
+//	  		{txtSrch2 = "((av_oJ_dim2 = "+txtR+") || (av_aJ_dim2 = "+txtR+"))";}
+// 	 	else
+// 	 		{txtSrch2="";}
+//	 	
+//	 	if(txtSrch!= "")
+// 	 		{txtSrch2 += " && ("+txtSrch+")";}
+// 	 	if(txtSrch3!= "")
+// 	 		{txtSrch2 += " && ("+txtSrch3+")";}
+//	 
+//	  	WAF.sources.fiche.query(txtSrch2);
+	};// @lock
+
+	imageAv.click = function imageAv_click (event)// @startlock
+	{// @endlock
+		// Afficher l'image en plus grand
+
+	};// @lock
 
 	textRecherche.keyup = function textRecherche_keyup (event)// @startlock
 	{// @endlock
 		// Add your code here
-		//var $input_content = ($textRecherche.text());
-        
-        //$("#texteRecherche").getValue();
-
 		
 		var txtR = $$("textRecherche").getValue();
 		
         if(txtR!= ""){
 	   		var lst = txtR.split(" ");
 	   		
-	  		txtSrch = "(marque = '*"+lst[0]+"*') || (modele = '*"+lst[0]+"*') || (cylindree = "+lst[0]+") || (annee = "+lst[0]+") || (nom = '*"+lst[0]+"*')";
+	  		txtSrch = "((marque = '*"+lst[0]+"*') || (modele = '*"+lst[0]+"*') || (cylindree = "+lst[0]+") || (annee = "+lst[0]+") || (nom = '*"+lst[0]+"*'))";
 	   		if(lst.length > 1){
 	   	 		for(var i=1; i<lst.length; i++){
-	     			if(lst[i] != "")
-	      			txtSrch += " || (marque = '*"+lst[i]+"*') || (modele = '*"+lst[i]+"*') || (cylindree = '*"+lst[i]+"*') || (annee = '*"+lst[i]+"*') || (nom = '*"+lst[i]+"*')";
+	   				//alert("trololol");
+	   	 			if(lst[i] == "avant")
+	   	 				{txtSrch += " && ((av_oJ_dim2 = "+lst[i+1]+") || (av_aJ_dim2 = "+lst[i+1]+"))";
+	   	 				i++;}
+	   	 			else if((lst[i] == "arriere") || (lst[i] == "arrière"))
+	   	 				{txtSrch += " && ((ar_oJ_dim2 = "+lst[i+1]+") || (ar_aJ_dim2 = "+lst[i+1]+"))";
+	   	 				i++;}
+	     			else if(lst[i] != "")
+	      				txtSrch += " && ((marque = '*"+lst[i]+"*') || (modele = '*"+lst[i]+"*') || (cylindree = '*"+lst[i]+"*') || (annee = '*"+lst[i]+"*') || (nom = '*"+lst[i]+"*'))";
 	    		}
 	   		} 
-	   		//$$("tInfos").setValue("Filtre : " + txtSrch);
+	   		//txtSrch += ")";
  	 	}
  	 	else
  	 	{txtSrch="";}
-  		//WAF.sources.fiche.query(txtSrch); 
-        
-        //var txtSrch = "(marque=textRecherche) || (modele=textRecherche) || (";
-	 
-	  WAF.sources.fiche.query(txtSrch);
-	  //WAF.DataSource.fiche.query(txtSrch);
-	   
+ 	 	
+// 	 	if(txtSrch2!= "")
+// 	 		{txtSrch += " && ("+txtSrch2+")";}
+// 	 	if(txtSrch3!= "")
+// 	 		{txtSrch += " && ("+txtSrch3+")";}
+        	 
+	  	WAF.sources.fiche.query(txtSrch);  
 	};// @lock
 
 		
 	button4.click = function button4_click (event)// @startlock
 	{// @endlock
-		// Add your code here
+		//BOUTON Afficher AVANT
 		$contOrgAv.show();
 		$contOrgAr.hide();
+		$imageAv.show();
+		$imageAr.hide();
 		//Bouton4 devient actuel (bleu ? rouge ?)
 		//$button4.css('background','#aaaaff');
 		//bouton3 redevient blanc
@@ -64,36 +131,24 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	button3.click = function button3_click (event)// @startlock
 	{// @endlock
-		// Add your code here
+		//BOUTON afficher ARRIERE
 		$contOrgAv.hide();
 		$contOrgAr.show();
+		$imageAv.hide();
+		$imageAr.show();
 		//Bouton3 devient actuel (bleu ? rouge ?)
 		//$button3.css('background','#08a808');
 		//bouton4 redevient blanc
 		//$button4.css('background','#F0F0F0');
 	};// @lock
 
-	button1.click = function button1_click (event)// @startlock
-	{// @endlock
-		//var m = sources.montage.newEntity();
-		//sources.fiche.avant = m;
-		
-	};// @lock
-
-	textMarque.change = function textMarque_change (event)// @startlock
-	{// @endlock
-		// Add your code here
-		
-		//var q = queryString;
-    	//sources.fiche.query(q);
-    	
-	};// @lock
-
 // @region eventManager// @startlock
+	WAF.addListener("bCopie", "click", bCopie.click, "WAF");
+	WAF.addListener("textArriere", "keyup", textArriere.keyup, "WAF");
+	WAF.addListener("textAvant", "keyup", textAvant.keyup, "WAF");
+	WAF.addListener("imageAv", "click", imageAv.click, "WAF");
 	WAF.addListener("textRecherche", "keyup", textRecherche.keyup, "WAF");
 	WAF.addListener("button4", "click", button4.click, "WAF");
 	WAF.addListener("button3", "click", button3.click, "WAF");
-	WAF.addListener("button1", "click", button1.click, "WAF");
-	WAF.addListener("textMarque", "change", textMarque.change, "WAF");
 // @endregion
 };// @endlock
