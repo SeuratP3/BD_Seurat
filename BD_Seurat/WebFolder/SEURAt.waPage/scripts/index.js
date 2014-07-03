@@ -21,12 +21,13 @@ WAF.onAfterInit = function onAfterInit() {// @lock
         var txtSrch = "";
         var txtSrch2 = "";
         var txtSrch3 = "";
+        var im = 0;
 
         
 	bCopie.click = function bCopie_click (event)// @startlock
 	{// @endlock
 		// Copier une fiche
-		//WAF.sources.fiche.addEntity(fiche);
+		//WAF.sources.fiche.?;
 //		var clone = new WAF.sources.fiche({
 //			marque: this.marque,
 //			modele: this.modele
@@ -34,6 +35,9 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 //		clone.save();
 // 
 //		return clone;
+		
+		
+		
 	};// @lock
 
 	textArriere.keyup = function textArriere_keyup (event)// @startlock
@@ -73,11 +77,40 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 //	  	WAF.sources.fiche.query(txtSrch2);
 	};// @lock
 
+
+	function ouvrePopup(sPage, iLarg, iHaut){
+	    var iTop=(screen.height-iHaut)/2;
+	    var iLeft=(screen.width-iLarg)/2;
+	    window.open(sPage, "popup", "resizable=no, location=no, menubar=no, status=no, scrollbars=no, top="+iTop+",left="+iLeft+",width="+iLarg+", height="+iHaut);
+	    return false;
+	}
+	/*******************************************************************************
+	* Fermeture des Popup
+	*******************************************************************************/
+	function fermePopup(){
+	    opener = self;
+	    self.close();
+	}
+		
 	imageAv.click = function imageAv_click (event)// @startlock
 	{// @endlock
 		// Afficher l'image en plus grand
-
+		
+		ouvrePopup(WAF.sources.fiche.av_image,500,500);
+		
+//		if(im==0){
+//			$imageAv.width(400);
+//			$imageAv.height(400);
+//			im=1;
+//		}
+//		else{
+//			$imageAv.width(165);
+//			$imageAv.height(165);
+//			im=0;
+//		}
+		
 	};// @lock
+
 
 	textRecherche.keyup = function textRecherche_keyup (event)// @startlock
 	{// @endlock
@@ -87,10 +120,20 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		
         if(txtR!= ""){
 	   		var lst = txtR.split(" ");
+	   		var i = 0;
 	   		
-	  		txtSrch = "((marque = '*"+lst[0]+"*') || (modele = '*"+lst[0]+"*') || (cylindree = "+lst[0]+") || (annee = "+lst[0]+") || (nom = '*"+lst[0]+"*'))";
+	   		if(lst[0] == "avant")
+ 				{txtSrch = " ((av_oJ_dim2 = "+lst[1]+") || (av_aJ_dim2 = "+lst[1]+"))";
+ 				i=2;}
+ 			else if((lst[0] == "arriere") || (lst[0] == "arrière"))
+ 				{txtSrch = "((ar_oJ_dim2 = "+lst[1]+") || (ar_aJ_dim2 = "+lst[1]+"))";
+ 				i=2;}
+	  		else 
+	  			{txtSrch = "((marque = '*"+lst[0]+"*') || (modele = '*"+lst[0]+"*') || (cylindree = "+lst[0]+") || (annee = "+lst[0]+") || (nom = '*"+lst[0]+"*'))";
+	  			i=1;}
+
 	   		if(lst.length > 1){
-	   	 		for(var i=1; i<lst.length; i++){
+	   	 		for(var i; i<lst.length; i++){
 	   				//alert("trololol");
 	   	 			if(lst[i] == "avant")
 	   	 				{txtSrch += " && ((av_oJ_dim2 = "+lst[i+1]+") || (av_aJ_dim2 = "+lst[i+1]+"))";
@@ -114,8 +157,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
         	 
 	  	WAF.sources.fiche.query(txtSrch);  
 	};// @lock
-
-		
+	
+	
 	button4.click = function button4_click (event)// @startlock
 	{// @endlock
 		//BOUTON Afficher AVANT
