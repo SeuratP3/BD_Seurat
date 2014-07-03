@@ -62,7 +62,7 @@
 		"model": {
 			"scriptMode": "manual",
 			"workspaceLeft": 0,
-			"workspaceTop": 2204
+			"workspaceTop": 0
 		}
 	},
 	"dataClasses": [
@@ -548,27 +548,27 @@
 				},
 				{
 					"name": "av_aP_c1ext",
+					"kind": "storage",
 					"scope": "public",
-					"type": "long",
-					"kind": "storage"
+					"type": "long"
 				},
 				{
 					"name": "av_aP_c1ext2",
+					"kind": "storage",
 					"scope": "public",
-					"type": "long",
-					"kind": "storage"
+					"type": "long"
 				},
 				{
 					"name": "av_aP_c1extAFAMa",
+					"kind": "storage",
 					"scope": "public",
-					"type": "long",
-					"kind": "storage"
+					"type": "long"
 				},
 				{
 					"name": "av_aP_c1extAFAMb",
+					"kind": "storage",
 					"scope": "public",
-					"type": "long",
-					"kind": "storage"
+					"type": "long"
 				},
 				{
 					"name": "av_aP_cote2",
@@ -602,33 +602,39 @@
 				},
 				{
 					"name": "av_aP_c2ext",
+					"kind": "storage",
 					"scope": "public",
-					"type": "long",
-					"kind": "storage"
+					"type": "long"
 				},
 				{
 					"name": "av_aP_c2ext2",
+					"kind": "storage",
 					"scope": "public",
-					"type": "long",
-					"kind": "storage"
+					"type": "long"
 				},
 				{
 					"name": "av_aP_c2extAFAMa",
+					"kind": "storage",
 					"scope": "public",
-					"type": "long",
-					"kind": "storage"
+					"type": "long"
 				},
 				{
 					"name": "av_aP_c2extAFAMb",
+					"kind": "storage",
 					"scope": "public",
-					"type": "long",
-					"kind": "storage"
+					"type": "long"
 				},
 				{
 					"name": "av_aObs",
 					"kind": "storage",
 					"scope": "public",
 					"type": "string"
+				},
+				{
+					"name": "ar_image",
+					"scope": "public",
+					"type": "image",
+					"kind": "storage"
 				},
 				{
 					"name": "ar_oJ_nom",
@@ -1130,6 +1136,12 @@
 				},
 				{
 					"name": "ar_aObs",
+					"kind": "storage",
+					"scope": "public",
+					"type": "string"
+				},
+				{
+					"name": "Recherche",
 					"kind": "storage",
 					"scope": "public",
 					"type": "string"
