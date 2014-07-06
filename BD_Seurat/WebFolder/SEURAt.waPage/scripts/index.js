@@ -2,6 +2,7 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var imageButton1 = {};	// @buttonImage
 	var bCopie = {};	// @button
 	var imageAv = {};	// @image
 	var textRecherche = {};	// @textField
@@ -10,93 +11,87 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 // @endregion// @endlock
 
 // eventHandlers// @lock
-		var $contOrgAv = $("#contOrgAv");
-		var $contOrgAr = $("#contOrgAr");
-		var $button4 = $("#button4"); //Bouton qui affiche la partie AVANT
-		var $button3 = $("#button3"); //Bouton qui affiche la partie ARRIERE
-		var $imageAv = $("#imageAv");
-		var $imageAr = $("#imageAr");
-        var txtSrch = "";
-        var txtSrch2 = "";
-        var txtSrch3 = "";
-        var monTimeOut;
-        var listF; //liste de tous les attributs de fiche
-        var im = 0;
 
-	
-        WAF.sources.fiche.orderBy("marque");
+
+	var $contOrgAv = $("#contOrgAv");
+	var $contOrgAr = $("#contOrgAr");
+	var $button4 = $("#button4"); //Bouton qui affiche la partie AVANT
+	var $button3 = $("#button3"); //Bouton qui affiche la partie ARRIERE
+	var $imageAv = $("#imageAv");
+	var $imageAr = $("#imageAr");
+    var txtSrch = "";
+    var txtSrch2 = "";
+    var txtSrch3 = "";
+    var monTimeOut;
+    var listF; //liste de tous les attributs de fiche
+    var im = 0;
+
+    WAF.sources.fiche.orderBy("marque",{onSuccess:function(event){
+    	
+    	WAF.sources.fiche.getEntityCollection().refresh();
+    	
+    }});
+
+	imageButton1.click = function imageButton1_click (event)// @startlock
+	{// @endlock
+		var src = WAF.sources.fiche.getCurrentElement();
+		
+		WAF.sources.fiche.addNewElement();
+		
+		WAF.sources.fiche.serverRefresh({onSuccess:function(event){
+				
+				var listF = WAF.sources.fiche.getAttributeNames();
+
+				for(var i in listF)
+					{
+						var el = listF[i];
+						if(listF[i]!="ID")
+						{
+							WAF.sources.fiche[el] = src[el].value;
+							//alert(el+"="+cur[el].value);
+						}
+					}
+
+				//WAF.sources.fiche.marque = "Toto"; //zeSrc.marque;
+				
+				WAF.sources.fiche.save();
+				
+			     	//WAF.sources.fiche.getEntityCollection().refresh();
+				
+			}});
+	};// @lock
+		
         
         
 	bCopie.click = function bCopie_click (event)// @startlock
 	{// @endlock
+		//WAF.sources.fiche.copier_2();
+		
+		var src = WAF.sources.fiche.getCurrentElement();
+		
+		WAF.sources.fiche.addNewElement();
+		
+		WAF.sources.fiche.serverRefresh({onSuccess:function(event){
+				
+    			var listF = WAF.sources.fiche.getAttributeNames();
+    
+    			for(var i in listF)
+					{
+						var el = listF[i];
+						if(listF[i]!="ID")
+						{
+							WAF.sources.fiche[el] = src[el].value;
+							//alert(el+"="+cur[el].value);
+						}
+					}
 
-		// Copier une fiche
-		//WAF.sources.fiche.?;
-//		var clone = new WAF.sources.fiche({
-//			marque: this.marque,
-//			modele: this.modele
-//		});
-//		clone.save();
-// 
-//		return clone;
-		
-		//WAF.sources.fiche.newEntity();
-//		sources.fiche.save({onSuccess:function(event) //  save the current entity
-//        {
-//            sources.fiche.addEntity();
-//            for(var i in listF)
-//            {
-//            	source.fiche.listF[i]=source.fiche.getCurrentElement.listF[i];
-//            }
-//        } });
-        
-        //sources.fiche.newEntity();
-//        sources.employee.save({onSuccess:function(event) //  save the current entity
-//        {
-//        	sources.fiche.addEntity(sources.fiche.getCurrentElement());
-//    	}});
-
-//sources.fiche.addEntity(sources.fiche.getCurrentElement());
-		//debugger;
-		var cur = WAF.sources.fiche.getCurrentElement();
-		//alert(cur.toString);
-        listF = WAF.sources.fiche.getAttributeNames();
-		
-		WAF.sources.fiche.addNewElement(); //create the new company entity
-		
-		
-		for(var i in listF)
-			{
-				//alert(listF[i]);
-//				if(listF[i]=="ID")
-//					alert("ID");
-				if(listF[i]!="ID")
-				{
-					var el = listF[i];
-					WAF.sources.fiche[el] = cur[el];
-					//alert(el+"="+cur[el].value);
-				}
-			}
-		//WAF.sources.fiche.save();
-
-		sources.fiche.save({onSuccess:function(event) //  save the current entity
-        {
-        	
-		}});
-		
-		
-        
-//      sources.employee.addNewElement();
-//		sources.employee.lastName=lastNameInput;    // data input by the user through Text Input widgets
-//		sources.employee.firstName=firstNameInput;
-//		sources.employee.save({onSuccess: mySaveHandler;}); // save the entity
-		//listF = WAF.sources.fiche.getAttributeNames();
-		//for(var i=0; i<listF.length; i++)
-		//{
-			//WAF.sources.fiche.addEntity(fiche);
-			
-		//}
-		
+				//WAF.sources.fiche.marque = "Toto"; //zeSrc.marque;
+				
+				WAF.sources.fiche.save();
+				
+   		     	//WAF.sources.fiche.getEntityCollection().refresh();
+				
+			}});
 		
 	};// @lock
 
@@ -295,6 +290,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("imageButton1", "click", imageButton1.click, "WAF");
 	WAF.addListener("bCopie", "click", bCopie.click, "WAF");
 	WAF.addListener("imageAv", "click", imageAv.click, "WAF");
 	WAF.addListener("textRecherche", "keyup", textRecherche.keyup, "WAF");
