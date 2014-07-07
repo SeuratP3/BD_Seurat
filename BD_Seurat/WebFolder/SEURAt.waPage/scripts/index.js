@@ -2,6 +2,7 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var canvas1 = {};	// @canvas
 	var imageButton1 = {};	// @buttonImage
 	var bCopie = {};	// @button
 	var imageAv = {};	// @image
@@ -11,7 +12,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 // @endregion// @endlock
 
 // eventHandlers// @lock
-
 
 	var $contOrgAv = $("#contOrgAv");
 	var $contOrgAr = $("#contOrgAr");
@@ -31,6 +31,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
     	WAF.sources.fiche.getEntityCollection().refresh();
     	
     }});
+
+	canvas1.click = function canvas1_click (event)// @startlock
+	{// @endlock
+		// Add your code here
+		ouvrePopup(WAF.sources.fiche.av_image,500,500);
+	};// @lock
 
 	imageButton1.click = function imageButton1_click (event)// @startlock
 	{// @endlock
@@ -231,7 +237,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	 				{txtSrch = "((ar_oJ_dim2 = "+lst[1]+") || (ar_aJ_dim2 = "+lst[1]+"))";
 	 				i=2;}
 		  		else 
-		  			{txtSrch = "((marque = '*"+lst[0]+"*') || (modele = '*"+lst[0]+"*') || (cylindree = "+lst[0]+") || (annee = "+lst[0]+") || (nom = '*"+lst[0]+"*'))";
+		  			{txtSrch = "((ID = "+lst[0]+") || (marque = '*"+lst[0]+"*') || (modele = '*"+lst[0]+"*') || (cylindree = "+lst[0]+") || (annee = "+lst[0]+") || (nom = '*"+lst[0]+"*'))";
 		  			i=1;}
 
 		   		if(lst.length > 1){
@@ -244,7 +250,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		   	 				{txtSrch += " && ((ar_oJ_dim2 = "+lst[i+1]+") || (ar_aJ_dim2 = "+lst[i+1]+")) || (ar_oJ_dim2 = "+lst[i+1]+"\") || (ar_aJ_dim2 = "+lst[i+1]+"\"))";
 		   	 				i++;}
 		     			else if(lst[i] != "")
-		      				txtSrch += " && ((marque = '*"+lst[i]+"*') || (modele = '*"+lst[i]+"*') || (cylindree = '*"+lst[i]+"*') || (annee = '*"+lst[i]+"*') || (nom = '*"+lst[i]+"*'))";
+		      				txtSrch += " && ((ID = "+lst[0]+") || (marque = '*"+lst[i]+"*') || (modele = '*"+lst[i]+"*') || (cylindree = '*"+lst[i]+"*') || (annee = '*"+lst[i]+"*') || (nom = '*"+lst[i]+"*'))";
 		    		}
 		   		} 
 		   		//txtSrch += ")";
@@ -252,11 +258,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	 	 	else
 	 	 	{txtSrch="";}
 	 	 	
-	// 	 	if(txtSrch2!= "")
-	// 	 		{txtSrch += " && ("+txtSrch2+")";}
-	// 	 	if(txtSrch3!= "")
-	// 	 		{txtSrch += " && ("+txtSrch3+")";}
-	        	 
 		  	WAF.sources.fiche.query(txtSrch);  
 		  	
 	  	}, 400);
@@ -290,6 +291,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("canvas1", "click", canvas1.click, "WAF");
 	WAF.addListener("imageButton1", "click", imageButton1.click, "WAF");
 	WAF.addListener("bCopie", "click", bCopie.click, "WAF");
 	WAF.addListener("imageAv", "click", imageAv.click, "WAF");

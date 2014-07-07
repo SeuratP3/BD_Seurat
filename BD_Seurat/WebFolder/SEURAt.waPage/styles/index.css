@@ -3,6 +3,91 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#slider1 {
+	 width: 139px;
+	 height: 100px;
+	 top: 178px;
+	 left: 72px;
+	
+	 
+}
+
+#icon3 {
+	 z-index: 2;
+	 width: 24px;
+	 height: 24px;
+	 top: 1px;
+	 left: 1px;
+	
+	 position: absolute;
+	 
+}
+
+#imageButton3 {
+	 z-index: 12;
+	 width: 27px;
+	 height: 27px;
+	 top: 477px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#icon2 {
+	 z-index: 2;
+	 width: 24px;
+	 height: 24px;
+	 top: 1px;
+	 left: 1px;
+	
+	 position: absolute;
+	 
+}
+
+#imageButton2 {
+	 z-index: 11;
+	 width: 27px;
+	 height: 27px;
+	 top: 477px;
+	 left: 47px;
+	
+	 position: absolute;
+	 background-image: none;
+	 background-repeat: no-repeat;
+	 
+}
+
+#label176 {
+	 z-index: 10;
+	 width: 31px;
+	 height: 13px;
+	 top: 306px;
+	 left: 18px;
+	
+	 position: absolute;
+	 
+}
+
+#canvas1 {
+	 z-index: 10;
+	 width: 198px;
+	 height: 145px;
+	 top: 324px;
+	 left: 18px;
+	
+	 position: absolute;
+	 border-left-color: rgb(170, 170, 255);
+	 border-left-width: 2px;
+	 border-right-color: rgb(170, 170, 255);
+	 border-right-width: 2px;
+	 border-bottom-color: rgb(170, 170, 255);
+	 border-bottom-width: 2px;
+	 border-top-color: rgb(170, 170, 255);
+	 border-top-width: 2px;
+	 
+}
+
 #icon1 {
 	 z-index: 2;
 	 width: 24px;
@@ -4279,10 +4364,10 @@
 }
 
 #label1 {
-	 width: 57px;
-	 height: 13px;
-	 top: 46px;
-	 left: 99px;
+	 width: 50px;
+	 height: 16px;
+	 top: 45px;
+	 left: 106px;
 	
 	 position: absolute;
 	 min-width: 50px;

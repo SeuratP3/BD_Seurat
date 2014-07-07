@@ -27,6 +27,7 @@ model.Fiche.collectionMethods.copier = function() {
 //					}
 
 	WAF.sources.fiche.save();
+		
 				
 };
 
