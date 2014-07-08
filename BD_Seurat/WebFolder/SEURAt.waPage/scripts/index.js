@@ -2,6 +2,14 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var bCreateAR = {};	// @button
+	var gridJantesArriere = {};	// @dataGrid
+	var bModif = {};	// @button
+	var gridJantesAvant = {};	// @dataGrid
+	var bCreateAV = {};	// @button
+	var dataGrid2 = {};	// @dataGrid
+	var button2 = {};	// @button
+	var imageButton2 = {};	// @buttonImage
 	var canvas1 = {};	// @canvas
 	var imageButton1 = {};	// @buttonImage
 	var bCopie = {};	// @button
@@ -19,6 +27,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	var $button3 = $("#button3"); //Bouton qui affiche la partie ARRIERE
 	var $imageAv = $("#imageAv");
 	var $imageAr = $("#imageAr");
+	var $gridJantesAvant = $("#gridJantesAvant");
+	var $gridJantesArriere = $("#gridJantesArriere");
+	var $bCreateAV = $("#bCreateAV");
+	var $bCreateAR = $("#bCreateAR");
+	var $bRemoveAV = $("#bRemoveAV");
+	var $bRemoveAR = $("#bRemoveAR");
     var txtSrch = "";
     var txtSrch2 = "";
     var txtSrch3 = "";
@@ -32,6 +46,71 @@ WAF.onAfterInit = function onAfterInit() {// @lock
     	
     }});
 
+	bCreateAR.click = function bCreateAR_click (event)// @startlock
+	{// @endlock
+		// Add your code here
+		WAF.sources.ar_Avec.fiche=WAF.sources.fiche;
+	};// @lock
+
+	gridJantesArriere.onRowClick = function gridJantesArriere_onRowClick (event)// @startlock
+	{// @endlock
+		// Add your code here
+		sources.ar_jantes.save({onSuccess:function(event) //  save the current entity
+        {
+            //sources.av_jantes.addEntity(sources.av_jantes.getCurrentElement()); 
+            //sources.av_jantes.ID = null;
+                // put the current entity in the datasource's entity collection
+        } });
+	};// @lock
+
+	bModif.click = function bModif_click (event)// @startlock
+	{// @endlock
+		// Add your code here
+		sources.av_jantes.save({onSuccess:function(event) //  save the current entity
+        {
+        	
+        }  });
+	};// @lock
+
+	gridJantesAvant.onRowClick = function gridJantesAvant_onRowClick (event)// @startlock
+	{// @endlock
+		// Add your code here
+		sources.av_jantes.save({onSuccess:function(event) //  save the current entity
+        {
+            //sources.av_jantes.addEntity(sources.av_jantes.getCurrentElement()); 
+            //sources.av_jantes.ID = null;
+                // put the current entity in the datasource's entity collection
+        } });
+	};// @lock
+
+	bCreateAV.click = function bCreateAV_click (event)// @startlock
+	{// @endlock
+		// Add your code here
+		WAF.sources.av_Avec.ficheAssociee=WAF.sources.fiche;
+	};// @lock
+
+	var timeOut;
+
+	dataGrid2.onCellClick = function dataGrid2_onCellClick (event)// @startlock
+	{// @endlock
+		// Afficher les bonnes jantes dans l(es)'autre(s) tableau(x) - gridJantesAvant
+		
+	};// @lock
+
+	button2.click = function button2_click (event)// @startlock
+	{// @endlock
+		// POUBELLE
+		
+	};// @lock
+
+
+	imageButton2.click = function imageButton2_click (event)// @startlock
+	{// @endlock
+		// open SVG editor ? pour créer nouvelle image
+		addImage(WAF.widgets.textField1.getValue());
+		//open("http://127.0.0.1:8081/Print.waPage/");
+	};// @lock
+
 	canvas1.click = function canvas1_click (event)// @startlock
 	{// @endlock
 		// Add your code here
@@ -40,45 +119,45 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	imageButton1.click = function imageButton1_click (event)// @startlock
 	{// @endlock
+		WAF.sources.fiche.copier();
 		var src = WAF.sources.fiche.getCurrentElement();
 		
 		WAF.sources.fiche.addNewElement();
 		
 		WAF.sources.fiche.serverRefresh({onSuccess:function(event){
 				
-				var listF = WAF.sources.fiche.getAttributeNames();
+			var listF = WAF.sources.fiche.getAttributeNames();
 
-				for(var i in listF)
+			for(var i in listF)
+				{
+					var el = listF[i];
+					if(listF[i]!="ID")
 					{
-						var el = listF[i];
-						if(listF[i]!="ID")
-						{
-							WAF.sources.fiche[el] = src[el].value;
-							//alert(el+"="+cur[el].value);
-						}
+						WAF.sources.fiche[el] = src[el].value;
+						//alert(el+"="+cur[el].value);
 					}
+				}
 
-				//WAF.sources.fiche.marque = "Toto"; //zeSrc.marque;
-				
-				WAF.sources.fiche.save();
-				
-			     	//WAF.sources.fiche.getEntityCollection().refresh();
-				
-			}});
+			//WAF.sources.fiche.marque = "Toto"; //zeSrc.marque;
+			
+			WAF.sources.fiche.save();
+			
+		    //WAF.sources.fiche.getEntityCollection().refresh();
+		}});
 	};// @lock
 		
         
         
 	bCopie.click = function bCopie_click (event)// @startlock
 	{// @endlock
-		//WAF.sources.fiche.copier_2();
 		
 		var src = WAF.sources.fiche.getCurrentElement();
 		
 		WAF.sources.fiche.addNewElement();
 		
+        
 		WAF.sources.fiche.serverRefresh({onSuccess:function(event){
-				
+		
     			var listF = WAF.sources.fiche.getAttributeNames();
     
     			for(var i in listF)
@@ -96,87 +175,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 				WAF.sources.fiche.save();
 				
    		     	//WAF.sources.fiche.getEntityCollection().refresh();
+
+			
 				
 			}});
 		
 	};// @lock
-
-//	function copyEntity(source, dest, skipList, onlyList){
-//    var sourceAttrs  = [];
-//    var attrIterator = null;
-//    var attrName     = "";
-//    var haveSkip     = false;
-//    var haveOnly     = false;
-//    var idx          = 0;
-//    var result       = {
-//        ok       : false,
-//        error    : null,
-//        copied   : [],
-//        notCopied: []
-//    };
-// 
-//    if((isNullish(source)) || (isNullish(dest))){
-//        result.error = setError(1, "Invalid parameters.");
-//        return result;
-//    }
-// 
-//    if(source.getDataClass().getName() != dest.getDataClass().getName()){
-//        result.error = setError(2, "Source and destination are not the same data class");
-//        return result;
-//    }
-// 
-//    if((!isNullish(skipList)) && (skipList.length > 0)){
-//        haveSkip = true;
-//    }
-// 
-//    if((!isNullish(onlyList)) && (onlyList.length > 0)){
-//        haveOnly = true;
-//    }
-// 
-//    if((haveOnly === true) && (haveSkip === true)){
-//        result.error = setError(3, "Invalid attribute lists.");
-//        return result;
-//    }
-// 
-//    try{
-//        attrIterator = source.getDataClass().attributes;
-//        for(attrName in attrIterator){
-//            sourceAttrs.push(attrName);
-//        }
-// 
-//        if(haveOnly === true){
-//            for(idx = 0; idx < onlyList.length; idx++){
-//                attrName = onlyList[idx];
-//                if(sourceAttrs.indexOf(attrName) >= 0){
-//                    dest[attrName] = source[attrName];
-//                    result.copied.push(attrName);
-//                }
-//                else{
-//                    result.notCopied.push(attrName);
-//                }
-//            }
-//        }
-//        else{
-//            for(idx = 0; idx < sourceAttrs.length; idx++){
-//                attrName = sourceAttrs[idx];
-// 
-//                if((haveSkip === false) || (skipList.indexOf(attrName) < 0)){
-//                    dest[attrName] = source[attrName];
-//                    result.copied.push(attrName);
-//                }
-//                else{
-//                    result.notCopied.push(attrName);
-//                }
-//            }
-//        }
-//    }
-//    catch(e){
-//        result.error = setError(10, "Failed. Err:" + getCatchMessage(e));
-//        return result;
-//    }
-//    result.ok = true;
-//    return result;
-//}
 
 	function ouvrePopup(sPage, iLarg, iHaut){
 	    var iTop=(screen.height-iHaut)/2;
@@ -191,7 +195,20 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	    opener = self;
 	    self.close();
 	}
+	
+	function addImage(link){
 		
+		var myPict = loadImage (link); // load the image from file
+	    myPict.setPath("C:/Utilisateurs/Camille/Mes\ Documents/Wakanda/BD_Seurat/BD_Seurat/WebFolder/images/wak.jpg"); //create a new path for the image
+	    WAF.sources.fiche.av_image = myPict;
+	    WAF.sources.fiche.av_image.save();
+//		var p = new ds.Pict();   // create a new entity in the Pict datastore class
+//	    p.name = "Flower";   // give a name to the image
+//	    p.photo = myPict;  // affects the image object
+//		p.save();   // store the entity and the image reference
+			// the image is also stored at the specified location
+	}
+	
 	imageAv.click = function imageAv_click (event)// @startlock
 	{// @endlock
 		// Afficher l'image en plus grand
@@ -219,8 +236,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		if(monTimeOut != null){
 			window.clearTimeout(monTimeOut);
 		}
-		
-    	monTimeOut = setTimeout(function(){    
+    	monTimeOut = setTimeout(function(){
 		
 			var txtR = $$("textRecherche").getValue();
 			
@@ -271,6 +287,13 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		$contOrgAr.hide();
 		$imageAv.show();
 		$imageAr.hide();
+		$gridJantesAvant.show();
+		$gridJantesArriere.hide();
+		$bCreateAV.show();
+		$bCreateAR.hide();
+		$bRemoveAV.show();
+		$bRemoveAR.hide();
+		
 		//Bouton4 devient actuel (bleu ? rouge ?)
 		//$button4.css('background','#aaaaff');
 		//bouton3 redevient blanc
@@ -280,10 +303,17 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	button3.click = function button3_click (event)// @startlock
 	{// @endlock
 		//BOUTON afficher ARRIERE
-		$contOrgAv.hide();
 		$contOrgAr.show();
-		$imageAv.hide();
+		$contOrgAv.hide();
 		$imageAr.show();
+		$imageAv.hide();
+		$gridJantesArriere.show();
+		$gridJantesAvant.hide();
+		$bCreateAR.show();
+		$bCreateAV.hide();
+		$bRemoveAR.show();
+		$bRemoveAV.hide();
+		
 		//Bouton3 devient actuel (bleu ? rouge ?)
 		//$button3.css('background','#08a808');
 		//bouton4 redevient blanc
@@ -291,6 +321,14 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("bCreateAR", "click", bCreateAR.click, "WAF");
+	WAF.addListener("gridJantesArriere", "onRowClick", gridJantesArriere.onRowClick, "WAF");
+	WAF.addListener("bModif", "click", bModif.click, "WAF");
+	WAF.addListener("gridJantesAvant", "onRowClick", gridJantesAvant.onRowClick, "WAF");
+	WAF.addListener("bCreateAV", "click", bCreateAV.click, "WAF");
+	WAF.addListener("dataGrid2", "onCellClick", dataGrid2.onCellClick, "WAF");
+	WAF.addListener("button2", "click", button2.click, "WAF");
+	WAF.addListener("imageButton2", "click", imageButton2.click, "WAF");
 	WAF.addListener("canvas1", "click", canvas1.click, "WAF");
 	WAF.addListener("imageButton1", "click", imageButton1.click, "WAF");
 	WAF.addListener("bCopie", "click", bCopie.click, "WAF");

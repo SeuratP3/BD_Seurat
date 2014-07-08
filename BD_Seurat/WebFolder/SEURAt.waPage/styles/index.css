@@ -3,12 +3,25 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#slider1 {
-	 width: 139px;
-	 height: 100px;
-	 top: 178px;
-	 left: 72px;
+#label177 {
+	 z-index: 14;
+	 width: 26px;
+	 height: 16px;
+	 top: 461px;
+	 left: 17px;
 	
+	 position: absolute;
+	 
+}
+
+#textField1 {
+	 z-index: 14;
+	 width: 374px;
+	 height: 25px;
+	 top: 457px;
+	 left: 48px;
+	
+	 position: absolute;
 	 
 }
 
@@ -27,8 +40,8 @@
 	 z-index: 12;
 	 width: 27px;
 	 height: 27px;
-	 top: 477px;
-	 left: 80px;
+	 top: 87px;
+	 left: 30px;
 	
 	 position: absolute;
 	 
@@ -49,8 +62,8 @@
 	 z-index: 11;
 	 width: 27px;
 	 height: 27px;
-	 top: 477px;
-	 left: 47px;
+	 top: 69px;
+	 left: 5px;
 	
 	 position: absolute;
 	 background-image: none;
@@ -60,10 +73,10 @@
 
 #label176 {
 	 z-index: 10;
-	 width: 31px;
-	 height: 13px;
-	 top: 306px;
-	 left: 18px;
+	 width: 30px;
+	 height: 16px;
+	 top: 123px;
+	 left: 7px;
 	
 	 position: absolute;
 	 
@@ -73,8 +86,8 @@
 	 z-index: 10;
 	 width: 198px;
 	 height: 145px;
-	 top: 324px;
-	 left: 18px;
+	 top: 144px;
+	 left: 7px;
 	
 	 position: absolute;
 	 border-left-color: rgb(170, 170, 255);
@@ -115,8 +128,8 @@
 #label175 {
 	 z-index: 8;
 	 width: 13px;
-	 height: 13px;
-	 top: 11px;
+	 height: 16px;
+	 top: 10px;
 	 right: 75px;
 	
 	 position: absolute;
@@ -126,8 +139,8 @@
 #label174 {
 	 z-index: 164;
 	 width: 22px;
-	 top: 534.5px;
-	 bottom: 15px;
+	 height: 16px;
+	 top: 533px;
 	 left: 7px;
 	
 	 position: absolute;
@@ -1075,10 +1088,10 @@
 
 #textField163 {
 	 z-index: 164;
+	 width: 643px;
+	 height: 22px;
 	 top: 530px;
-	 bottom: 10px;
 	 left: 34px;
-	 right: 10px;
 	
 	 position: absolute;
 	 
@@ -2168,10 +2181,10 @@
 
 #textField79 {
 	 z-index: 96;
+	 width: 643px;
 	 height: 23px;
 	 top: 530px;
 	 left: 34px;
-	 right: 10px;
 	
 	 position: absolute;
 	 
@@ -2179,10 +2192,10 @@
 
 #label90 {
 	 z-index: 96;
-	 height: 16px;
-	 top: 533px;
+	 width: 22px;
+	 height: 13px;
+	 top: 535px;
 	 left: 7px;
-	 right: 656px;
 	
 	 position: absolute;
 	 min-width: 20px;
@@ -2203,8 +2216,8 @@
 #label89 {
 	 z-index: 93;
 	 width: 8px;
-	 height: 16px;
-	 top: 502px;
+	 height: 13px;
+	 top: 503px;
 	 left: 456px;
 	
 	 position: absolute;
@@ -2225,8 +2238,8 @@
 #label88 {
 	 z-index: 92;
 	 width: 8px;
-	 height: 16px;
-	 top: 472px;
+	 height: 13px;
+	 top: 473px;
 	 left: 456px;
 	
 	 position: absolute;
@@ -2246,10 +2259,10 @@
 
 #label87 {
 	 z-index: 91;
-	 width: 9px;
-	 height: 16px;
-	 top: 502px;
-	 left: 371px;
+	 width: 8px;
+	 height: 13px;
+	 top: 503px;
+	 left: 372px;
 	
 	 position: absolute;
 	 
@@ -2268,10 +2281,10 @@
 
 #label86 {
 	 z-index: 89;
-	 width: 9px;
-	 height: 16px;
-	 top: 472px;
-	 left: 371px;
+	 width: 8px;
+	 height: 13px;
+	 top: 473px;
+	 left: 372px;
 	
 	 position: absolute;
 	 
@@ -2291,8 +2304,8 @@
 #label85 {
 	 z-index: 88;
 	 width: 8px;
-	 height: 16px;
-	 top: 444px;
+	 height: 13px;
+	 top: 445px;
 	 left: 456px;
 	
 	 position: absolute;
@@ -2312,10 +2325,10 @@
 
 #label84 {
 	 z-index: 87;
-	 width: 9px;
-	 height: 16px;
-	 top: 444px;
-	 left: 371px;
+	 width: 8px;
+	 height: 13px;
+	 top: 445px;
+	 left: 372px;
 	
 	 position: absolute;
 	 
@@ -2335,8 +2348,8 @@
 #label83 {
 	 z-index: 86;
 	 width: 8px;
-	 height: 16px;
-	 top: 414px;
+	 height: 13px;
+	 top: 415px;
 	 left: 456px;
 	
 	 position: absolute;
@@ -2356,10 +2369,10 @@
 
 #label82 {
 	 z-index: 85;
-	 width: 9px;
-	 height: 16px;
-	 top: 414px;
-	 left: 371px;
+	 width: 8px;
+	 height: 13px;
+	 top: 415px;
+	 left: 372px;
 	
 	 position: absolute;
 	 
@@ -2391,8 +2404,8 @@
 #label81 {
 	 z-index: 83;
 	 width: 9px;
-	 height: 16px;
-	 top: 502px;
+	 height: 13px;
+	 top: 503px;
 	 left: 292px;
 	
 	 position: absolute;
@@ -2413,8 +2426,8 @@
 #label80 {
 	 z-index: 82;
 	 width: 9px;
-	 height: 16px;
-	 top: 472px;
+	 height: 13px;
+	 top: 473px;
 	 left: 292px;
 	
 	 position: absolute;
@@ -2435,8 +2448,8 @@
 #label79 {
 	 z-index: 81;
 	 width: 9px;
-	 height: 16px;
-	 top: 444px;
+	 height: 13px;
+	 top: 445px;
 	 left: 292px;
 	
 	 position: absolute;
@@ -2457,8 +2470,8 @@
 #label78 {
 	 z-index: 80;
 	 width: 9px;
-	 height: 16px;
-	 top: 414px;
+	 height: 13px;
+	 top: 415px;
 	 left: 292px;
 	
 	 position: absolute;
@@ -2479,8 +2492,8 @@
 #label77 {
 	 z-index: 79;
 	 width: 25px;
-	 height: 16px;
-	 top: 472px;
+	 height: 13px;
+	 top: 473px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -2500,10 +2513,10 @@
 
 #label76 {
 	 z-index: 78;
-	 width: 16px;
-	 height: 16px;
-	 top: 502px;
-	 left: 218px;
+	 width: 17px;
+	 height: 13px;
+	 top: 503px;
+	 left: 217px;
 	
 	 position: absolute;
 	 
@@ -2523,8 +2536,8 @@
 #label75 {
 	 z-index: 77;
 	 width: 16px;
-	 height: 16px;
-	 top: 472px;
+	 height: 13px;
+	 top: 473px;
 	 left: 218px;
 	
 	 position: absolute;
@@ -2545,8 +2558,8 @@
 #label74 {
 	 z-index: 76;
 	 width: 25px;
-	 height: 16px;
-	 top: 414px;
+	 height: 13px;
+	 top: 415px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -2566,10 +2579,10 @@
 
 #label73 {
 	 z-index: 74;
-	 width: 16px;
-	 height: 16px;
-	 top: 444px;
-	 left: 218px;
+	 width: 17px;
+	 height: 13px;
+	 top: 445px;
+	 left: 217px;
 	
 	 position: absolute;
 	 
@@ -2589,8 +2602,8 @@
 #label72 {
 	 z-index: 74;
 	 width: 16px;
-	 height: 16px;
-	 top: 414px;
+	 height: 13px;
+	 top: 415px;
 	 left: 218px;
 	
 	 position: absolute;
@@ -2611,8 +2624,8 @@
 #label71 {
 	 z-index: 72;
 	 width: 30px;
-	 height: 16px;
-	 top: 351px;
+	 height: 13px;
+	 top: 352px;
 	 left: 362px;
 	
 	 position: absolute;
@@ -2633,10 +2646,10 @@
 
 #textField59 {
 	 z-index: 71;
+	 width: 52px;
 	 height: 22px;
 	 top: 348px;
 	 left: 625px;
-	 right: 10px;
 	
 	 position: absolute;
 	 
@@ -2644,10 +2657,10 @@
 
 #label70 {
 	 z-index: 70;
-	 height: 16px;
-	 top: 351px;
-	 left: 612px;
-	 right: 65px;
+	 width: 7px;
+	 height: 13px;
+	 top: 352px;
+	 left: 613px;
 	
 	 position: absolute;
 	 
@@ -2666,10 +2679,10 @@
 
 #label69 {
 	 z-index: 69;
-	 width: 7px;
-	 height: 16px;
-	 top: 381px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 382px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -2688,10 +2701,10 @@
 
 #label68 {
 	 z-index: 68;
-	 width: 30px;
-	 height: 16px;
-	 top: 381px;
-	 left: 452px;
+	 width: 31px;
+	 height: 13px;
+	 top: 382px;
+	 left: 451px;
 	
 	 position: absolute;
 	 min-width: 30px;
@@ -2712,8 +2725,8 @@
 #label67 {
 	 z-index: 67;
 	 width: 30px;
-	 height: 16px;
-	 top: 381px;
+	 height: 13px;
+	 top: 382px;
 	 left: 362px;
 	
 	 position: absolute;
@@ -2734,10 +2747,10 @@
 
 #label66 {
 	 z-index: 66;
-	 width: 7px;
-	 height: 16px;
-	 top: 381px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 382px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -2768,8 +2781,8 @@
 #label65 {
 	 z-index: 65;
 	 width: 25px;
-	 height: 16px;
-	 top: 351px;
+	 height: 13px;
+	 top: 352px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -2789,10 +2802,10 @@
 
 #label64 {
 	 z-index: 64;
-	 width: 16px;
-	 height: 16px;
-	 top: 381px;
-	 left: 218px;
+	 width: 17px;
+	 height: 13px;
+	 top: 382px;
+	 left: 217px;
 	
 	 position: absolute;
 	 
@@ -2811,10 +2824,10 @@
 
 #label63 {
 	 z-index: 63;
-	 width: 7px;
-	 height: 16px;
-	 top: 351px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 352px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -2833,10 +2846,10 @@
 
 #label62 {
 	 z-index: 62;
-	 width: 30px;
-	 height: 16px;
-	 top: 351px;
-	 left: 452px;
+	 width: 31px;
+	 height: 13px;
+	 top: 352px;
+	 left: 451px;
 	
 	 position: absolute;
 	 min-width: 30px;
@@ -2856,10 +2869,10 @@
 
 #label61 {
 	 z-index: 61;
-	 width: 7px;
-	 height: 16px;
-	 top: 351px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 352px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -2879,8 +2892,8 @@
 #label60 {
 	 z-index: 60;
 	 width: 16px;
-	 height: 16px;
-	 top: 351px;
+	 height: 13px;
+	 top: 352px;
 	 left: 218px;
 	
 	 position: absolute;
@@ -2901,8 +2914,8 @@
 #label59 {
 	 z-index: 59;
 	 width: 30px;
-	 height: 16px;
-	 top: 293px;
+	 height: 13px;
+	 top: 294px;
 	 left: 362px;
 	
 	 position: absolute;
@@ -2923,10 +2936,10 @@
 
 #textField47 {
 	 z-index: 59;
+	 width: 52px;
 	 height: 22px;
 	 top: 290px;
 	 left: 625px;
-	 right: 10px;
 	
 	 position: absolute;
 	 
@@ -2934,10 +2947,10 @@
 
 #label58 {
 	 z-index: 58;
-	 height: 16px;
-	 top: 293px;
-	 left: 612px;
-	 right: 65px;
+	 width: 7px;
+	 height: 13px;
+	 top: 294px;
+	 left: 613px;
 	
 	 position: absolute;
 	 
@@ -2956,10 +2969,10 @@
 
 #label57 {
 	 z-index: 57;
-	 width: 7px;
-	 height: 16px;
-	 top: 323px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 324px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -2978,10 +2991,10 @@
 
 #label56 {
 	 z-index: 56;
-	 width: 30px;
-	 height: 16px;
-	 top: 323px;
-	 left: 452px;
+	 width: 31px;
+	 height: 13px;
+	 top: 324px;
+	 left: 451px;
 	
 	 position: absolute;
 	 min-width: 30px;
@@ -3002,8 +3015,8 @@
 #label55 {
 	 z-index: 55;
 	 width: 30px;
-	 height: 16px;
-	 top: 323px;
+	 height: 13px;
+	 top: 324px;
 	 left: 362px;
 	
 	 position: absolute;
@@ -3024,10 +3037,10 @@
 
 #label54 {
 	 z-index: 54;
-	 width: 7px;
-	 height: 16px;
-	 top: 323px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 324px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -3058,8 +3071,8 @@
 #label53 {
 	 z-index: 53;
 	 width: 25px;
-	 height: 16px;
-	 top: 293px;
+	 height: 13px;
+	 top: 294px;
 	 left: 95px;
 	
 	 position: absolute;
@@ -3079,10 +3092,10 @@
 
 #label52 {
 	 z-index: 52;
-	 width: 16px;
-	 height: 16px;
-	 top: 323px;
-	 left: 218px;
+	 width: 17px;
+	 height: 13px;
+	 top: 324px;
+	 left: 217px;
 	
 	 position: absolute;
 	 
@@ -3101,10 +3114,10 @@
 
 #label51 {
 	 z-index: 51;
-	 width: 7px;
-	 height: 16px;
-	 top: 293px;
-	 left: 294px;
+	 width: 6px;
+	 height: 13px;
+	 top: 294px;
+	 left: 295px;
 	
 	 position: absolute;
 	 
@@ -3123,10 +3136,10 @@
 
 #label50 {
 	 z-index: 50;
-	 width: 30px;
-	 height: 16px;
-	 top: 293px;
-	 left: 452px;
+	 width: 31px;
+	 height: 13px;
+	 top: 294px;
+	 left: 451px;
 	
 	 position: absolute;
 	 min-width: 30px;
@@ -3146,10 +3159,10 @@
 
 #label49 {
 	 z-index: 49;
-	 width: 7px;
-	 height: 16px;
-	 top: 293px;
-	 left: 545px;
+	 width: 6px;
+	 height: 13px;
+	 top: 294px;
+	 left: 546px;
 	
 	 position: absolute;
 	 
@@ -3169,8 +3182,8 @@
 #label48 {
 	 z-index: 48;
 	 width: 16px;
-	 height: 16px;
-	 top: 293px;
+	 height: 13px;
+	 top: 294px;
 	 left: 218px;
 	
 	 position: absolute;
@@ -3178,8 +3191,8 @@
 }
 
 #container1 {
-	 width: 1344px;
-	 height: 669px;
+	 width: 1343px;
+	 height: 666px;
 	 top: 0px;
 	 left: 0px;
 	
@@ -3215,8 +3228,8 @@
 #label47 {
 	 z-index: 45;
 	 width: 23px;
-	 height: 16px;
-	 top: 230px;
+	 height: 13px;
+	 top: 231px;
 	 left: 200px;
 	
 	 position: absolute;
@@ -3237,8 +3250,8 @@
 #label46 {
 	 z-index: 43;
 	 width: 40px;
-	 height: 16px;
-	 top: 259px;
+	 height: 13px;
+	 top: 260px;
 	 left: 296px;
 	
 	 position: absolute;
@@ -3260,8 +3273,8 @@
 #label45 {
 	 z-index: 42;
 	 width: 30px;
-	 height: 16px;
-	 top: 229px;
+	 height: 13px;
+	 top: 230px;
 	 left: 61px;
 	
 	 position: absolute;
@@ -3283,8 +3296,8 @@
 #label44 {
 	 z-index: 41;
 	 width: 55px;
-	 height: 16px;
-	 top: 259px;
+	 height: 13px;
+	 top: 260px;
 	 left: 96px;
 	
 	 position: absolute;
@@ -3317,8 +3330,8 @@
 #label43 {
 	 z-index: 40;
 	 width: 50px;
-	 height: 16px;
-	 top: 230px;
+	 height: 13px;
+	 top: 231px;
 	 left: 529px;
 	
 	 position: absolute;
@@ -3340,8 +3353,8 @@
 #label12 {
 	 z-index: 39;
 	 width: 9px;
-	 height: 16px;
-	 top: 230px;
+	 height: 13px;
+	 top: 231px;
 	 left: 353px;
 	
 	 position: absolute;
@@ -3362,8 +3375,8 @@
 #label9 {
 	 z-index: 38;
 	 width: 9px;
-	 height: 16px;
-	 top: 230px;
+	 height: 13px;
+	 top: 231px;
 	 left: 284px;
 	
 	 position: absolute;
@@ -3395,8 +3408,8 @@
 #label8 {
 	 z-index: 37;
 	 width: 45px;
-	 height: 16px;
-	 top: 230px;
+	 height: 13px;
+	 top: 231px;
 	 left: 430px;
 	
 	 position: absolute;
@@ -3420,7 +3433,7 @@
 	 height: 16px;
 	 top: 192px;
 	 left: 95px;
-	 right: 568px;
+	 right: 567px;
 	
 	 position: absolute;
 	 min-width: 20px;
@@ -3462,10 +3475,10 @@
 
 #label22 {
 	 z-index: 36;
+	 width: 8px;
 	 height: 16px;
 	 top: 73px;
 	 left: 612px;
-	 right: 65px;
 	
 	 position: absolute;
 	 
@@ -3473,10 +3486,10 @@
 
 #textField9 {
 	 z-index: 36;
+	 width: 52px;
 	 height: 22px;
 	 top: 70px;
 	 left: 625px;
-	 right: 10px;
 	
 	 position: absolute;
 	 
@@ -4153,10 +4166,10 @@
 
 #label41 {
 	 z-index: 27;
+	 width: 8px;
 	 height: 16px;
 	 top: 133px;
 	 left: 612px;
-	 right: 65px;
 	
 	 position: absolute;
 	 
@@ -4164,10 +4177,10 @@
 
 #textField29 {
 	 z-index: 27;
+	 width: 52px;
 	 height: 22px;
 	 top: 130px;
 	 left: 625px;
-	 right: 10px;
 	
 	 position: absolute;
 	 
@@ -4260,7 +4273,7 @@
 	 height: 16px;
 	 top: 37px;
 	 left: 10px;
-	 right: 835px;
+	 right: 834px;
 	
 	 position: absolute;
 	 min-width: 25px;
@@ -4355,8 +4368,8 @@
 #dataGrid2 {
 	 z-index: 11;
 	 width: 437px;
-	 height: 583px;
 	 top: 74px;
+	 bottom: 10px;
 	 left: 10px;
 	
 	 position: absolute;
@@ -4525,6 +4538,80 @@
 	 right: 10px;
 	
 	 position: absolute;
+	 
+}
+
+#gridJantesAvant {
+	 z-index: 13;
+	 width: 145px;
+	 height: 255px;
+	 top: 307px;
+	 left: 13px;
+	
+	 position: absolute;
+	 
+}
+
+#gridJantesArriere {
+	 width: 145px;
+	 height: 255px;
+	 top: 307px;
+	 left: 12px;
+	
+	 position: absolute;
+	 z-index: 15;
+	 
+}
+
+#bCreateAR {
+	 width: 27px;
+	 height: 27px;
+	 top: 585px;
+	 left: 58px;
+	
+	 position: absolute;
+	 background-image: url('/images/Ajouter.png');
+	 z-index: 16;
+	 background-repeat: no-repeat;
+	 
+}
+
+#bCreateAV {
+	 z-index: 14;
+	 width: 27px;
+	 height: 27px;
+	 top: 585px;
+	 left: 19px;
+	
+	 position: absolute;
+	 background-image: url('/images/Ajouter.png');
+	 background-repeat: no-repeat;
+	 
+}
+
+#bRemoveAV {
+	 z-index: 17;
+	 width: 27px;
+	 height: 27px;
+	 top: 585px;
+	 left: 95px;
+	
+	 position: absolute;
+	 background-image: url('/images/red_delete.gif');
+	 background-repeat: no-repeat;
+	 
+}
+
+#bRemoveAR {
+	 width: 27px;
+	 height: 27px;
+	 top: 585px;
+	 left: 130px;
+	
+	 position: absolute;
+	 background-image: url('/images/red_delete.gif');
+	 z-index: 18;
+	 background-repeat: no-repeat;
 	 
 }
 

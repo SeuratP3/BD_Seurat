@@ -2,17 +2,17 @@
 
 model.Fiche.collectionMethods.copier = function() {
 	// Add your code here;
-	var src = WAF.sources.fiche.getCurrentElement();
+	var src = model.Fiche.getCurrentElement();
 	
-	WAF.sources.fiche.addNewElement();
-	WAF.sources.fiche.serverRefresh();
+	model.Fiche.addNewElement();
+	model.Fiche.serverRefresh();
 	 
 	        	//sources.fiche.addEntity(sources.fiche.getCurrentElement());
 	        	
-    listF = WAF.sources.fiche.getAttributeNames();
-	var dest = WAF.sources.fiche.getCurrentElement();
+    listF = model.Fiche.getAttributeNames();
+	var dest = model.Fiche.getCurrentElement();
 	
-	WAF.sources.fiche.marque = "vohuzke";
+	model.Fiche.marque = "vohuzke";
 	//dest.marque = cur.marque;
 //				for(var i in listF)
 //					{
@@ -26,7 +26,7 @@ model.Fiche.collectionMethods.copier = function() {
 //						}
 //					}
 
-	WAF.sources.fiche.save();
+	model.Fiche.save();
 		
 				
 };
